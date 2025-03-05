@@ -1,0 +1,8 @@
+project Ejercicios1 is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("ejercicio7.adb", "ejercicios7.adb", "ejercicio6.adb", "ejercicio5.adb", "ejercicio4.adb", "ejercicio3.adb", "ejercicio2.adb", "ejercicio1.adb");
+
+end Ejercicios1;
+
