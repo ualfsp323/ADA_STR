@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__ejercicio1.o
+[PROJECT FILES]
+C:\Users\fsp28\Documents\ADA\ejercicios1.gpr
+20250305172802 44295ac45afb959c419021e3cf8bceb5
+[BOUND OBJECT FILES]
+C:\Users\fsp28\Documents\ADA\obj\ejercicio1.o
+[GENERATED SOURCE FILES]
+b__ejercicio1.ads
+b__ejercicio1.adb
+b__ejercicio1.ali
+[RESULTING OPTIONS]
+-LC:\Users\fsp28\Documents\ADA\obj\
+-LC:\Users\fsp28\Documents\ADA\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
