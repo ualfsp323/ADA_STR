@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\s.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\s.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\s.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\s.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\s.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\s.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 7" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 6" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\control.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\control.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\control.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\leer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\leer.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\guardar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\guardar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\operacion.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\operacion.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\mostrar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\mostrar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\simulacion.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\simulacion.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\seguridad.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\leer.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\leer.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 13" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\leer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\leer.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 13" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\control.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\control.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\control.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 13" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\data_type.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 3" >
+      <vfs_project>C:\Users\Alumno\Documents\Pract1\practica1.gpr</vfs_project>
+      <vfs_file>C:\Users\Alumno\Documents\Pract1\src\controlador.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
