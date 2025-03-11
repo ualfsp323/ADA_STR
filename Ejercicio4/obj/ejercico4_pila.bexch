@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__ejercico4_pila.o
+[PROJECT FILES]
+C:\Users\fsp28\Documents\ADA\Ejercicio4\ejercicio4.gpr
+20250311170722 3a56c7adbed05297fc77d5d4edf5ddf0
+[BOUND OBJECT FILES]
+C:\Users\fsp28\Documents\ADA\Ejercicio4\obj\ejercico4_pila.o
+[GENERATED SOURCE FILES]
+b__ejercico4_pila.ads
+b__ejercico4_pila.adb
+b__ejercico4_pila.ali
+[RESULTING OPTIONS]
+-LC:\Users\fsp28\Documents\ADA\Ejercicio4\obj\
+-LC:\Users\fsp28\Documents\ADA\Ejercicio4\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
