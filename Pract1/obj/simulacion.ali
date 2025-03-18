@@ -1,0 +1,57 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U simulacion%b		simulacion.adb		223fd857 NE OO PK IL
+
+U simulacion%s		simulacion.ads		a20ced2a EE NE OO PK IL
+W data_type%s		data_type.ads		data_type.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D data_type.ads		20250318111424 bc4e33f8 data_type%s
+D simulacion.ads	20250318115048 1e42ded2 simulacion%s
+D simulacion.adb	20250318201054 3c7d0685 simulacion%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+G a e
+G c Z s b [simular_planta simulacion 4 14 none]
+X 3 data_type.ads
+1K9*Data_Type 36e14 4|1w6 1r21
+3f4*beta{float} 5|24r25
+4f4*Leq{float} 5|24r32
+5f4*H{float} 5|25r24
+6f4*c{float} 5|24r51 25r48
+7f4*Cp{float} 5|24r72 25r68
+8f4*rho{float} 5|24r77 25r73
+15f4*ST2_Initial{float} 5|13r26
+16f4*ST1_Initial{float} 5|12r26
+22R9*Sensor_Data 27e14 4|7r24 5|5r24
+23f7*ST1{float} 5|15r34 28m15
+23f12*ST2{float} 5|16r34 23m15 28r30
+24f7*SC1{float} 5|24r65 25r62
+24f12*SC2{float} 5|32r45 32r84
+26f7*SD1{float} 5|31m15
+29R9*Input_Data 32e14 4|6r18 5|4r18
+31f7*SR1{float} 5|24r44
+31f12*ST4{float} 5|25r40
+31f17*ST3{float} 5|31r76
+X 4 simulacion.ads
+3K9*simulacion 9l5 9e15 5|1b14 34l5 34t15
+4U14*Simular_Planta 5>7 6>7 7=7 5|2b14 33l8 33t22
+5i7 k{integer} 5|3b7 11r10
+6r7 Input{3|29R9} 5|4b7 24r38 25r34 31r70
+7r7 Sensors{3|22R9} 5|5b7 15r26 16r26 23m7 24r57 25r54 28m7 28r22 31m7 32r37
+. 32r76
+X 5 simulacion.adb
+7f7 Tt{float} 20m7 25r29
+8f7 ST1_Previous{float} 12m10 15m10 20r14 23r22
+8f21 ST2_Previous{float} 13m10 16m10 20r29 31r46 32r61
+

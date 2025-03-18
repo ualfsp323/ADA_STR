@@ -1,0 +1,54 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U data_type%s		data_type.ads		bc4e33f8 EE OO PK
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D data_type.ads		20250318111424 bc4e33f8 data_type%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+G a e
+G c Z s s [sensor_dataIP data_type 22 9 none]
+G c Z s s [input_dataIP data_type 29 9 none]
+X 3 data_type.ads
+1K9*Data_Type 36l5 36e14
+3f4*beta{float}
+4f4*Leq{float}
+5f4*H{float}
+6f4*c{float}
+7f4*Cp{float}
+8f4*rho{float}
+11f4*SC1{float}
+12f4*SC2{float}
+15f4*ST2_Initial{float}
+16f4*ST1_Initial{float}
+19f4*Max_Temperature{float}
+22R9*Sensor_Data 27e14
+23f7*ST1{float}
+23f12*ST2{float}
+23f17*ST3{float}
+23f22*ST4{float}
+24f7*SC1{float}
+24f12*SC2{float}
+25f7*SR1{float}
+26f7*SD1{float}
+29R9*Input_Data 32e14
+30i7*k{integer}
+31f7*SR1{float}
+31f12*ST4{float}
+31f17*ST3{float}
+35X4*Temperature_Exceeded
+
