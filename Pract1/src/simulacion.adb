@@ -19,7 +19,7 @@ package body simulacion is
       -- Ecuación (2): Calcular Tt
       Tt := (ST1_Previous + ST2_Previous) / 2.0;
 
-      -- Ecuación (1): Calcular ST2(k)
+      -- Ecuación (1): Calcular ST2(k)80
       Sensors.ST2 := ST1_Previous +
                      (((beta * Leq * Input.SR1) * c) / (Sensors.SC1  * Cp * rho)) -
                     (((H * (Tt - Input.ST4)) * c) / (Sensors.SC1 * Cp * rho));

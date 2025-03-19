@@ -260,16 +260,16 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\data_type.o
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\controlador.o
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\guardar.o
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\leer.o
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\mostrar.o
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\seguridad.o
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\simulacion.o
-   --   C:\Users\fsp28\Documents\ADA\Pract1\obj\main.o
-   --   -LC:\Users\fsp28\Documents\ADA\Pract1\obj\
-   --   -LC:\Users\fsp28\Documents\ADA\Pract1\obj\
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\data_type.o
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\controlador.o
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\guardar.o
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\leer.o
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\mostrar.o
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\seguridad.o
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\simulacion.o
+   --   C:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\main.o
+   --   -LC:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\
+   --   -LC:\Users\Franco\Documents\ADA\ADA_STR\Pract1\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnat

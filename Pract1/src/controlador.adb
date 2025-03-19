@@ -11,10 +11,15 @@ package body controlador is
       ST1_Previous, ST2_Previous : Float;
       Tt : Float;
    begin
-      -- Valores anteriores de ST1 y ST2
+
+
+      -- Ejercicio 2: Calcular caudales óptimos
+      if Usar_Caudales_Optimos then
+
+               -- Valores anteriores de ST1 y ST2
       if k = 1 then
-         ST1_Previous := ST1_Initial;
-         ST2_Previous := ST2_Initial;
+     ST1_Previous := ST1_Initial;  -- Valor inicial para la primera iteración
+         ST2_Previous := ST2_Initial;  -- Valor inicial para la primera iteración
       else
          ST1_Previous := Sensors.ST1;
          ST2_Previous := Sensors.ST2;
@@ -23,8 +28,7 @@ package body controlador is
       -- Calcular Tt
       Tt := (ST1_Previous + ST2_Previous) / 2.0;
 
-      -- Ejercicio 2: Calcular caudales óptimos
-      if Usar_Caudales_Optimos then
+
          -- Calcular SC1 óptimo
          Sensors.SC1 := ((beta * Leq * Input.SR1) - H * (Tt - Input.ST4)) * c /
                         ((Sensors.ST2 - ST1_Previous) * Cp * rho);
@@ -37,7 +41,7 @@ package body controlador is
          end if;
 
          -- Calcular SC2 óptimo
-         Sensors.SC2 := (Sensors.SD1 / 24.0 - 0.135 - 0.003 * ST2_Previous + 0.0203 * Input.ST3) /
+         Sensors.SC2 := (32.0/ 24.0 - 0.135 - 0.003 * ST2_Previous + 0.0203 * Input.ST3) /
                         (-0.001 + 0.00004 * ST2_Previous);
 
          -- Asegurarse de que SC2 esté dentro del rango permitido

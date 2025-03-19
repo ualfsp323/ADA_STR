@@ -1,17 +1,1 @@
 
-Iteración  5: Temperatura en ST2 supera 95 °C
-Iteración  6: Temperatura en ST2 supera 95 °C
-Iteración  7: Temperatura en ST2 supera 95 °C
-Iteración  8: Temperatura en ST2 supera 95 °C
-Iteración  9: Temperatura en ST2 supera 95 °C
-Iteración  10: Temperatura en ST2 supera 95 °C
-Iteración  11: Temperatura en ST2 supera 95 °C
-Iteración  12: Temperatura en ST2 supera 95 °C
-Iteración  13: Temperatura en ST2 supera 95 °C
-Iteración  14: Temperatura en ST2 supera 95 °C
-Iteración  15: Temperatura en ST2 supera 95 °C
-Iteración  16: Temperatura en ST2 supera 95 °C
-Iteración  17: Temperatura en ST2 supera 95 °C
-Iteración  18: Temperatura en ST2 supera 95 °C
-Iteración  19: Temperatura en ST2 supera 95 °C
-Iteración  20: Temperatura en ST2 supera 95 °C

@@ -10,7 +10,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		e26a56f6 NE OO SU
+U main%b		main.adb		4f5194c1 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -32,16 +32,16 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D controlador.ads	20250318194224 04e478e6 controlador%s
-D data_type.ads		20250318111424 bc4e33f8 data_type%s
-D guardar.ads		20250318181044 076f32ec guardar%s
+D controlador.ads	20250319144320 04e478e6 controlador%s
+D data_type.ads		20250319160848 bc4e33f8 data_type%s
+D guardar.ads		20250319144320 076f32ec guardar%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D leer.ads		20250318201438 23c9c33b leer%s
-D main.adb		20250318202318 abe2c50e main%b
-D mostrar.ads		20250318114644 62d25a4a mostrar%s
-D seguridad.ads		20250318194506 07e078c4 seguridad%s
-D simulacion.ads	20250318115048 1e42ded2 simulacion%s
+D leer.ads		20250319144320 23c9c33b leer%s
+D main.adb		20250319171550 06d90739 main%b
+D mostrar.ads		20250319144320 62d25a4a mostrar%s
+D seguridad.ads		20250319144320 07e078c4 seguridad%s
+D simulacion.ads	20250319144320 1e42ded2 simulacion%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -73,40 +73,32 @@ X 9 a-textio.ads
 58K13*Text_IO 725e16 17|1w10 1r27
 X 11 controlador.ads
 3K9*controlador 10e16 17|4w6 4r23
-4U14*Calcular_Caudales_Optimos 17|31s7
+4U14*Calcular_Caudales_Optimos 17|26s7
 X 12 data_type.ads
 1K9*Data_Type 36e14 17|8w6 8r21
-11f4*SC1{float} 17|22r19
-12f4*SC2{float} 17|23r19
-15f4*ST2_Initial{float} 17|20r19
-16f4*ST1_Initial{float} 17|21r19
 22R9*Sensor_Data 27e14 17|13r14
-23f7*ST1{float} 17|21m12
-23f12*ST2{float} 17|20m12 37r38
-24f7*SC1{float} 17|22m12
-24f12*SC2{float} 17|23m12
+23f12*ST2{float} 17|32r38
 29R9*Input_Data 32e14 17|12r12
 X 13 guardar.ads
 3K9*guardar 12e12 17|6w6 6r19 17r4
 5U14*Inicializar_Archivos 17|17s12
-8U14*Guardar_Datos 17|43s7
+8U14*Guardar_Datos 17|38s7
 X 16 leer.ads
 3K9*leer 7e9 17|2w6 2r16
-5U14*Leer_Datos 17|28s7
+5U14*Leer_Datos 17|23s7
 X 17 main.adb
-10U11*Main 10b11 45l5 45t9
-12r4 Input{12|29R9} 28m21 31r36 34r25
-13r4 Sensors{12|22R9} 20m4 21m4 22m4 23m4 28m28 28r28 31m43 31r43 34m32 34r32
-. 37r30 40r24 43r24
-14b4 Usar_Caudales_Optimos{boolean} 31r52
-26i8 k{integer} 28r18 31r33 34r22 37r27 40r21 43r21
+10U11*Main 10b11 40l5 40t9
+12r4 Input{12|29R9} 23m21 26r36 29r25
+13r4 Sensors{12|22R9} 23m28 23r28 26m43 26r43 29m32 29r32 32r30 35r24 38r24
+14b4 Usar_Caudales_Optimos{boolean} 26r52
+21i8 k{integer} 23r18 26r33 29r22 32r27 35r21 38r21
 X 18 mostrar.ads
 3K9*mostrar 17|5w6 5r19 18|5e12
-4U14*Mostrar_Datos 17|40s7
+4U14*Mostrar_Datos 17|35s7
 X 19 seguridad.ads
 2K9*seguridad 17|7w6 7r21 19|6e14
-4U14*Controlar_Seguridad 17|37s7
+4U14*Controlar_Seguridad 17|32s7
 X 20 simulacion.ads
 3K9*simulacion 17|3w6 3r22 20|9e15
-4U14*Simular_Planta 17|34s7
+4U14*Simular_Planta 17|29s7
 
