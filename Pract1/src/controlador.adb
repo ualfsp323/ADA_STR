@@ -31,7 +31,7 @@ package body controlador is
 
          -- Calcular SC1 óptimo
          Sensors.SC1 := ((beta * Leq * Input.SR1) - H * (Tt - Input.ST4)) * c /
-                        ((Sensors.ST2 - ST1_Previous) * Cp * rho);
+                        ((80.0 - ST1_Previous) * Cp * rho);
 
          -- Asegurarse de que SC1 esté dentro del rango permitido
          if Sensors.SC1 < 7.5 then

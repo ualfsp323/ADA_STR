@@ -9,7 +9,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U controlador%b		controlador.adb		0740e21f NE OO PK IL
+U controlador%b		controlador.adb		0428efa6 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -32,7 +32,7 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D controlador.ads	20250319144320 04e478e6 controlador%s
-D controlador.adb	20250319171246 4cda0834 controlador%b
+D controlador.adb	20250319172726 4fb2058d controlador%b
 D data_type.ads		20250319160848 bc4e33f8 data_type%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
@@ -65,11 +65,11 @@ X 13 controlador.ads
 4U14*Calcular_Caudales_Optimos 5>7 6>7 7=7 8>7 14|5b14 58l8 58t33
 5i7 k{integer} 14|6b7 20r10
 6r7 Input{15|29R9} 14|7b7 33r40 33r63 44r79
-7r7 Sensors{15|22R9} 14|8b7 24r26 25r26 33m10 34r27 37r13 38m13 39r16 40m13
-. 44m10 48r13 49m13 50r16 51m13 55m10 56m10
+7r7 Sensors{15|22R9} 14|8b7 24r26 25r26 33m10 37r13 38m13 39r16 40m13 44m10
+. 48r13 49m13 50r16 51m13 55m10 56m10
 8b7 Usar_Caudales_Optimos{boolean} 14|9b7 17r10
 X 14 controlador.adb
-11f7 ST1_Previous{float} 21m6 24m10 29r14 34r41
+11f7 ST1_Previous{float} 21m6 24m10 29r14 34r34
 11f21 ST2_Previous{float} 22m10 25m10 29r29 44r55 45r45
 12f7 Tt{float} 29m7 33r58
 X 15 data_type.ads
@@ -78,13 +78,13 @@ X 15 data_type.ads
 4f4*Leq{float} 14|33r34
 5f4*H{float} 14|33r53
 6f4*c{float} 14|33r77
-7f4*Cp{float} 14|34r57
-8f4*rho{float} 14|34r62
+7f4*Cp{float} 14|34r50
+8f4*rho{float} 14|34r55
 15f4*ST2_Initial{float} 14|22r26
 16f4*ST1_Initial{float} 14|21r22
 22R9*Sensor_Data 13|7r24 14|8r24 15|27e14
 23f7*ST1{float} 14|24r34
-23f12*ST2{float} 14|25r34 34r35
+23f12*ST2{float} 14|25r34
 24f7*SC1{float} 14|33m18 37r21 38m21 39r24 40m21 55m18
 24f12*SC2{float} 14|44m18 48r21 49m21 50r24 51m21 56m18
 29R9*Input_Data 13|6r18 14|7r18 15|32e14
