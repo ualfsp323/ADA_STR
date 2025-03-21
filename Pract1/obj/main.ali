@@ -10,7 +10,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		4f5194c1 NE OO SU
+U main%b		main.adb		9f498e56 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -33,12 +33,12 @@ D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D controlador.ads	20250319144320 04e478e6 controlador%s
-D data_type.ads		20250319160848 bc4e33f8 data_type%s
+D data_type.ads		20250321173802 6c56296f data_type%s
 D guardar.ads		20250319144320 076f32ec guardar%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D leer.ads		20250319144320 23c9c33b leer%s
-D main.adb		20250319171550 06d90739 main%b
+D main.adb		20250321173854 06d90739 main%b
 D mostrar.ads		20250319144320 62d25a4a mostrar%s
 D seguridad.ads		20250319144320 07e078c4 seguridad%s
 D simulacion.ads	20250319144320 1e42ded2 simulacion%s
@@ -75,10 +75,10 @@ X 11 controlador.ads
 3K9*controlador 10e16 17|4w6 4r23
 4U14*Calcular_Caudales_Optimos 17|26s7
 X 12 data_type.ads
-1K9*Data_Type 36e14 17|8w6 8r21
-22R9*Sensor_Data 27e14 17|13r14
-23f12*ST2{float} 17|32r38
-29R9*Input_Data 32e14 17|12r12
+1K9*Data_Type 41e14 17|8w6 8r21
+27R9*Sensor_Data 32e14 17|13r14
+28f12*ST2{float} 17|32r38
+34R9*Input_Data 37e14 17|12r12
 X 13 guardar.ads
 3K9*guardar 12e12 17|6w6 6r19 17r4
 5U14*Inicializar_Archivos 17|17s12
@@ -88,8 +88,8 @@ X 16 leer.ads
 5U14*Leer_Datos 17|23s7
 X 17 main.adb
 10U11*Main 10b11 40l5 40t9
-12r4 Input{12|29R9} 23m21 26r36 29r25
-13r4 Sensors{12|22R9} 23m28 23r28 26m43 26r43 29m32 29r32 32r30 35r24 38r24
+12r4 Input{12|34R9} 23m21 26r36 29r25
+13r4 Sensors{12|27R9} 23m28 23r28 26m43 26r43 29m32 29r32 32r30 35r24 38r24
 14b4 Usar_Caudales_Optimos{boolean} 26r52
 21i8 k{integer} 23r18 26r33 29r22 32r27 35r21 38r21
 X 18 mostrar.ads

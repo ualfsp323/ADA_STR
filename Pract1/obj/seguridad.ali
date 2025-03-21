@@ -10,7 +10,7 @@ RV NO_IO
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U seguridad%b		seguridad.adb		87c45423 NE OO PK IL
+U seguridad%b		seguridad.adb		57dc4eb4 NE OO PK IL
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -19,7 +19,7 @@ W guardar%s		guardar.adb		guardar.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
-U seguridad%s		seguridad.ads		bbae4b3c EE NE OO PK IL
+U seguridad%s		seguridad.ads		6bb651ab EE NE OO PK IL
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W data_type%s		data_type.ads		data_type.ali
 
@@ -33,7 +33,7 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D data_type.ads		20250319160848 bc4e33f8 data_type%s
+D data_type.ads		20250321173802 6c56296f data_type%s
 D guardar.ads		20250319144320 076f32ec guardar%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
@@ -67,8 +67,8 @@ X 9 a-textio.ads
 58K13*Text_IO 725e16 16|1w10 1r27
 506U14*Put_Line 16|10s10
 X 11 data_type.ads
-1K9*Data_Type 36e14 15|1w6 1r21 16|3w6 3r21
-19f4*Max_Temperature{float} 16|9r16
+1K9*Data_Type 41e14 15|1w6 1r21 16|3w6 3r21
+24f4*Max_Temperature{float} 16|9r16
 X 12 guardar.ads
 3K9*guardar 12e12 16|2w6 2r19
 11U14*Guardar_Alarma 16|11s10

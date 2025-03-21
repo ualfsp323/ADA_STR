@@ -11,6 +11,11 @@ package Data_Type is
    SC1 : constant Float := 16.0;       -- Caudal fijo para SC1 [L/min]
    SC2 : constant Float := 425.0;      -- Caudal fijo para SC2 [L/h]
 
+      -- Caudales fijos
+   ST2_Optimo : constant Float := 80.0;       -- Temperatura optima en ST2 [°C]
+   SD1_Optimo : constant Float := 32.0;       -- Sensor de destilado optimo [L/h]
+
+
    -- Valores iniciales
    ST2_Initial : constant Float := 58.0;  -- Temperatura inicial en ST2 [°C]
    ST1_Initial : constant Float := 48.0;  -- Temperatura inicial en ST1 [°C]

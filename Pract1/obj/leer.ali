@@ -21,7 +21,7 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 Z system.val_flt%s	s-valflt.ads		s-valflt.ali
 Z system.val_int%s	s-valint.ads		s-valint.ali
 
-U leer%s		leer.ads		9f87f0c3 EE NE OO PK IL
+U leer%s		leer.ads		4f9fea54 EE NE OO PK IL
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W data_type%s		data_type.ads		data_type.ali
 
@@ -43,7 +43,7 @@ D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D data_type.ads		20250319160848 bc4e33f8 data_type%s
+D data_type.ads		20250321173802 6c56296f data_type%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D leer.ads		20250319144320 23c9c33b leer%s
@@ -92,22 +92,22 @@ X 15 a-textio.ads
 127U14*Close 23|53s7
 469U14*Get_Line 23|21s10
 X 19 data_type.ads
-1K9*Data_Type 36e14 22|1w6 1r21
-22R9*Sensor_Data 27e14 22|5r83 23|8r84
-23f17*ST3{float} 23|49m15
-23f22*ST4{float} 23|50m15
-25f7*SR1{float} 23|51m15
-29R9*Input_Data 32e14 22|5r53 23|8r53
-30i7*k{integer} 23|45m13
-31f7*SR1{float} 23|46m13 51r28
-31f12*ST4{float} 23|47m13 50r28
-31f17*ST3{float} 23|48m13 49r28
+1K9*Data_Type 41e14 22|1w6 1r21
+27R9*Sensor_Data 32e14 22|5r83 23|8r84
+28f17*ST3{float} 23|49m15
+28f22*ST4{float} 23|50m15
+30f7*SR1{float} 23|51m15
+34R9*Input_Data 37e14 22|5r53 23|8r53
+35i7*k{integer} 23|45m13
+36f7*SR1{float} 23|46m13 51r28
+36f12*ST4{float} 23|47m13 50r28
+36f17*ST3{float} 23|48m13 49r28
 X 22 leer.ads
 3K9*leer 7l5 7e9 23|7b14 55l5 55t9
 5U14*Leer_Datos 5>25 5<41 5=66 23|8b14 54l8 54t18
 5i25 k{integer} 23|8b25 20r21
-5r41 Input{19|29R9} 23|8b41 45m7 46m7 47m7 48m7 49r22 50r22 51r22
-5r66 Sensors{19|22R9} 23|8b67 49m7 50m7 51m7
+5r41 Input{19|34R9} 23|8b41 45m7 46m7 47m7 48m7 49r22 50r22 51r22
+5r66 Sensors{19|27R9} 23|8b67 49m7 50m7 51m7
 X 23 leer.adb
 10p7 File{15|65P9} 17m12 17r12 21r19 53m13 53r13
 11a7 Line{string} 21m25 26r44 27r45 28r44 31r36 34r36 37r36 40r36

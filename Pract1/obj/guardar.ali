@@ -21,7 +21,7 @@ W ada.text_io%s		a-textio.adb		a-textio.ali
 Z system.concat_4%s	s-conca4.adb		s-conca4.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 
-U guardar%s		guardar.ads		bb210114 EE NE OO PK IL
+U guardar%s		guardar.ads		6b391b83 EE NE OO PK IL
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W data_type%s		data_type.ads		data_type.ali
 
@@ -37,9 +37,9 @@ D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D data_type.ads		20250319160848 bc4e33f8 data_type%s
+D data_type.ads		20250321173802 6c56296f data_type%s
 D guardar.ads		20250319144320 076f32ec guardar%s
-D guardar.adb		20250319155306 1c6183c3 guardar%b
+D guardar.adb		20250321181122 1c6183c3 guardar%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -71,52 +71,52 @@ X 3 a-flteio.ads
 20K13*Float_Text_IO[11|46] 15|2w10 2r33
 X 10 a-textio.ads
 58K13*Text_IO 725e16 15|1w10 1r27
-65P9*File_Type 15|8r31 35r14 66r14
+65P9*File_Type 15|8r31 35r14 67r14
 67n32*Out_File{67E9} 15|12r26 17r31 23r27 28r32
-67n42*Append_File{67E9} 15|38r18 69r18
+67n42*Append_File{67E9} 15|38r18 70r18
 87I12*Field{integer}
 97U14*Create 15|17s13 28s13
-112U14*Open 15|12s10 23s10 38s7 69s7
-127U14*Close 15|19s7 30s7 61s7 75s7
-256U14*New_Line 15|58s7
-457U14*Put 15|41s7 42s7 44s7 46s7 48s7 50s7 52s7 54s7 56s7
-496U14*Put_Line 15|72s7
+112U14*Open 15|12s10 23s10 38s7 70s7
+127U14*Close 15|19s7 30s7 62s7 76s7
+256U14*New_Line 15|59s7
+457U14*Put 15|42s7 43s7 45s7 47s7 49s7 51s7 53s7 55s7 57s7
+496U14*Put_Line 15|73s7
 542X4*Name_Error 15|15r15 26r15
 X 11 a-tiflio.ads
-69U14*Put 15|43s7[3|20] 45s7[3|20] 47s7[3|20] 49s7[3|20] 51s7[3|20] 53s7[3|20]
-. 55s7[3|20] 57s7[3|20]
-72i7 Fore{10|87I12} 15|43r30[3|20] 45r30[3|20] 47r30[3|20] 49r30[3|20] 51r30[3|20]
-. 53r30[3|20] 55r30[3|20] 57r30[3|20]
-73i7 Aft{10|87I12} 15|43r41[3|20] 45r41[3|20] 47r41[3|20] 49r41[3|20] 51r41[3|20]
-. 53r41[3|20] 55r41[3|20] 57r41[3|20]
-74i7 Exp{10|87I12} 15|43r51[3|20] 45r51[3|20] 47r51[3|20] 49r51[3|20] 51r51[3|20]
-. 53r51[3|20] 55r51[3|20] 57r51[3|20]
+69U14*Put 15|44s7[3|20] 46s7[3|20] 48s7[3|20] 50s7[3|20] 52s7[3|20] 54s7[3|20]
+. 56s7[3|20] 58s7[3|20]
+72i7 Fore{10|87I12} 15|44r30[3|20] 46r30[3|20] 48r30[3|20] 50r30[3|20] 52r30[3|20]
+. 54r30[3|20] 56r30[3|20] 58r30[3|20]
+73i7 Aft{10|87I12} 15|44r41[3|20] 46r41[3|20] 48r41[3|20] 50r41[3|20] 52r41[3|20]
+. 54r41[3|20] 56r41[3|20] 58r41[3|20]
+74i7 Exp{10|87I12} 15|44r51[3|20] 46r51[3|20] 48r51[3|20] 50r51[3|20] 52r51[3|20]
+. 54r51[3|20] 56r51[3|20] 58r51[3|20]
 X 13 data_type.ads
-1K9*Data_Type 36e14 14|1w6 1r21
-22R9*Sensor_Data 27e14 14|8r57 15|34r57
-23f7*ST1{float} 15|43r25
-23f12*ST2{float} 15|45r25
-23f17*ST3{float} 15|47r25
-23f22*ST4{float} 15|49r25
-24f7*SC1{float} 15|51r25
-24f12*SC2{float} 15|53r25
-25f7*SR1{float} 15|55r25
-26f7*SD1{float} 15|57r25
+1K9*Data_Type 41e14 14|1w6 1r21
+27R9*Sensor_Data 32e14 14|8r57 15|34r57
+28f7*ST1{float} 15|44r25
+28f12*ST2{float} 15|46r25
+28f17*ST3{float} 15|48r25
+28f22*ST4{float} 15|50r25
+29f7*SC1{float} 15|52r25
+29f12*SC2{float} 15|54r25
+30f7*SR1{float} 15|56r25
+31f7*SD1{float} 15|58r25
 X 14 guardar.ads
-3K9*guardar 12l5 12e12 15|4b14 78l5 78t12
+3K9*guardar 12l5 12e12 15|4b14 79l5 79t12
 5U14*Inicializar_Archivos 15|7b14 31l8 31t28
-8U14*Guardar_Datos 8>28 8>44 15|34b14 62l8 62t21
-8i28 k{integer} 15|34b28 41r31
-8r44 Sensors{13|22R9} 15|34b44 43r17 45r17 47r17 49r17 51r17 53r17 55r17
-. 57r17
-11U14*Guardar_Alarma 11>29 11>45 15|65b14 76l8 76t22
-11i29 k{integer} 15|65b29 72r51
-11a45 mensaje{string} 15|65b45 72r63
+8U14*Guardar_Datos 8>28 8>44 15|34b14 63l8 63t21
+8i28 k{integer} 15|34b28 42r31
+8r44 Sensors{13|27R9} 15|34b44 44r17 46r17 48r17 50r17 52r17 54r17 56r17
+. 58r17
+11U14*Guardar_Alarma 11>29 11>45 15|66b14 77l8 77t22
+11i29 k{integer} 15|66b29 73r51
+11a45 mensaje{string} 15|66b45 73r63
 X 15 guardar.adb
 8p7 File_Data{10|65P9} 12m15 12r15 17m20 17r20 19m13 19r13
 8p18 File_Alarm{10|65P9} 23m15 23r15 28m20 28r20 30m13 30r13
-35p7 File{10|65P9} 38m12 38r12 41r11 42r11 43r11 44r11 45r11 46r11 47r11
-. 48r11 49r11 50r11 51r11 52r11 53r11 54r11 55r11 56r11 57r11 58r16 61m13
-. 61r13
-66p7 File{10|65P9} 69m12 69r12 72r16 75m13 75r13
+35p7 File{10|65P9} 38m12 38r12 42r11 43r11 44r11 45r11 46r11 47r11 48r11
+. 49r11 50r11 51r11 52r11 53r11 54r11 55r11 56r11 57r11 58r11 59r16 62m13
+. 62r13
+67p7 File{10|65P9} 70m12 70r12 73r16 76m13 76r13
 

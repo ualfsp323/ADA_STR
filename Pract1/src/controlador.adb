@@ -31,7 +31,7 @@ package body controlador is
 
          -- Calcular SC1 óptimo
          Sensors.SC1 := ((beta * Leq * Input.SR1) - H * (Tt - Input.ST4)) * c /
-                        ((80.0 - ST1_Previous) * Cp * rho);
+                        ((ST2_Optimo - ST1_Previous) * Cp * rho);
 
          -- Asegurarse de que SC1 esté dentro del rango permitido
          if Sensors.SC1 < 7.5 then
@@ -41,7 +41,7 @@ package body controlador is
          end if;
 
          -- Calcular SC2 óptimo
-         Sensors.SC2 := (32.0/ 24.0 - 0.135 - 0.003 * ST2_Previous + 0.0203 * Input.ST3) /
+         Sensors.SC2 := (SD1_Optimo / 24.0 - 0.135 - 0.003 * ST2_Previous + 0.0203 * Input.ST3) /
                         (-0.001 + 0.00004 * ST2_Previous);
 
          -- Asegurarse de que SC2 esté dentro del rango permitido

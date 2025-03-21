@@ -38,6 +38,7 @@ package body guardar is
       Open(File, Append_File, "data_log.txt");
 
       -- Escribir los valores en el archivo con formato controlado
+
       Put(File, Integer'Image(k));  -- Escribir el valor de k
       Put(File, " ");
       Put(File, Sensors.ST1, Fore => 1, Aft => 2, Exp => 0);  -- ST1 con 2 decimales
