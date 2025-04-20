@@ -1,0 +1,106 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U simulacion%b		simulacion.adb		9b2ec661 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U simulacion%s		simulacion.ads		710bc610 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W data_type%s		data_type.ads		data_type.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D data_type.ads		20250322122750 6c56296f data_type%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D simulacion.ads	20250420180354 1d5def7f simulacion%s
+D simulacion.adb	20250420180506 2887fc73 simulacion%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [simular_campo_solar simulacion 5 14 none]
+G c Z s b [simular_modulo_md simulacion 12 14 none]
+G c Z s b [simular_planta simulacion 19 14 none]
+G c Z b b [obtener_valores_anteriores simulacion 6 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 1r27
+X 11 data_type.ads
+1K9*Data_Type 41e14 14|1w6 1r21
+3f4*beta{float} 15|38r23
+4f4*Leq{float} 15|38r30
+5f4*H{float} 15|39r23
+6f4*c{float} 15|38r49 39r47
+7f4*Cp{float} 15|38r69 39r67
+8f4*rho{float} 15|38r74 39r72
+20f4*ST2_Initial{float} 15|15r26
+21f4*ST1_Initial{float} 15|14r26
+27R9*Sensor_Data 32e14 14|8r24 15r24 22r24 15|8r20 26r24 49r24 64r24
+28f7*ST1{float} 15|17r34 42m15
+28f12*ST2{float} 15|18r34 37m15 42r30
+29f7*SC1{float} 15|38r63 39r61
+29f12*SC2{float} 15|57r44 57r83
+31f7*SD1{float} 15|56m15
+34R9*Input_Data 37e14 14|7r18 14r18 21r18 15|25r18 48r18 63r18
+36f7*SR1{float} 15|38r42
+36f12*ST4{float} 15|39r39
+36f17*ST3{float} 15|56r76
+X 14 simulacion.ads
+3K9*simulacion 25l5 25e15 15|3b14 71l5 71t15
+5U14*Simular_Campo_Solar 6>7 7>7 8=7 15|23b14 43l8 43t27 67s7
+6i7 k{integer} 15|24b7 31r34
+7r7 Input{11|34R9} 15|25b7 38r36 39r33
+8r7 Sensors{11|27R9} 15|26b7 31r37 37m7 38r55 39r53 42m7 42r22
+12U14*Simular_Modulo_MD 13>7 14>7 15=7 15|46b14 58l8 58t25 68s7
+13i7 k{integer} 15|47b7 53r34
+14r7 Input{11|34R9} 15|48b7 56r70
+15r7 Sensors{11|27R9} 15|49b7 53r37 56m7 57r36 57r75
+19U14*Simular_Planta 20>7 21>7 22=7 15|61b14 69l8 69t22
+20i7 k{integer} 15|62b7 67r27 68r25
+21r7 Input{11|34R9} 15|63b7 67r30 68r28
+22r7 Sensors{11|27R9} 15|64b7 67m37 68m35
+X 15 simulacion.adb
+6U14 Obtener_Valores_Anteriores 6b14 7>7 8>7 9<7 10<7 20l8 20t34 31s7 53s7
+7i7 k{integer} 13r10
+8r7 Sensors{11|27R9} 17r26 18r26
+9f7 ST1_Previous{float} 14m10 17m10
+10f7 ST2_Previous{float} 15m10 18m10
+28f7 ST1_Previous{float} 31m46 34r14 37r22
+28f21 ST2_Previous{float} 31m60 34r29
+29f7 Tt{float} 34m7 39r28
+51f7 ST1_Previous{float} 53m46
+51f21 ST2_Previous{float} 53m60 56r46 57r60
+

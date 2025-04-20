@@ -1,0 +1,185 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		826f5258 NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W controlador%s		controlador.adb		controlador.ali
+W data_type%s		data_type.ads		data_type.ali
+W guardar%s		guardar.adb		guardar.ali
+W leer%s		leer.adb		leer.ali
+W mostrar%s		mostrar.adb		mostrar.ali
+W seguridad%s		seguridad.adb		seguridad.ali
+W simulacion%s		simulacion.adb		simulacion.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-calend.ads		20210520051128 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D controlador.ads	20250322122750 04e478e6 controlador%s
+D data_type.ads		20250322122750 6c56296f data_type%s
+D guardar.ads		20250322122750 076f32ec guardar%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D leer.ads		20250322122750 23c9c33b leer%s
+D main.adb		20250420183400 fb2a5149 main%b
+D mostrar.ads		20250322122750 62d25a4a mostrar%s
+D seguridad.ads		20250322122750 07e078c4 seguridad%s
+D simulacion.ads	20250420180354 1d5def7f simulacion%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 12 11 none]
+G r c none [main standard 12 11 none] [inicializar_archivos guardar 5 14 none]
+G r c none [main standard 12 11 none] [leer_datos leer 5 14 none]
+G r c none [main standard 12 11 none] [calcular_caudales_optimos controlador 4 14 none]
+G r c none [main standard 12 11 none] [simular_campo_solar simulacion 5 14 none]
+G r c none [main standard 12 11 none] [guardar_datos guardar 8 14 none]
+G r c none [main standard 12 11 none] [simular_modulo_md simulacion 12 14 none]
+G r c none [main standard 12 11 none] [controlar_seguridad seguridad 4 14 none]
+G r c none [main standard 12 11 none] [guardar_alarma guardar 11 14 none]
+G r c none [main standard 12 11 none] [mostrar_datos mostrar 4 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 24|1r6 1r23 2r6 2r29 3r6 3r25
+X 5 a-flteio.ads
+20K13*Float_Text_IO[14|46] 24|2w10 2r33
+X 7 a-reatim.ads
+39K13*Real_Time 185e18 24|3w10 3r29
+49O9*Time<duration> 24|19r17 20r25 21r22 22r24 23r26 44r25 45r26 46r20 49r37
+54O9*Time_Span<duration> 24|24r36 25r33 26r35 27r37 30r36 31r37 32r31 49r53
+61V13*Clock{49O9} 24|51s14 60s18 72s10 77s10 82s10 87s10 115s32 149s32 176s36
+. 191s27
+65V14*"+"{49O9} 24|51s28 74s51 79s45 84s49 89s53
+78V14*">"{boolean} 24|51r20
+80V14*">="{boolean} 24|72r16 77r16 82r16 87r16
+119V13*Milliseconds{54O9} 24|24s49 25s46 26s48 27s50 30s49 31s50 32s44
+X 13 a-textio.ads
+58K13*Text_IO 725e16 24|1w10 1r27
+87I12*Field{integer}
+262U14*New_Line 24|119s13 122s13 153s13 156s13
+463U14*Put 24|102s10 108s10 135s10 142s10
+506U14*Put_Line 24|56s4 96s10 97s10 104s10 110s10 114s10 118s13 121s13 130s10
+. 131s10 137s10 144s10 148s10 152s13 155s13 164s10 165s10 175s13 179s16 181s16
+. 190s10 193s13 195s13 197s13
+X 14 a-tiflio.ads
+82U14*Put 24|103s10[5|20] 109s10[5|20] 136s10[5|20] 143s10[5|20]
+84i7 Fore{13|87I12} 24|103r27[5|20] 109r27[5|20] 136r27[5|20] 143r27[5|20]
+85i7 Aft{13|87I12} 24|103r38[5|20] 109r38[5|20] 136r38[5|20] 143r38[5|20]
+86i7 Exp{13|87I12} 24|103r48[5|20] 109r48[5|20] 136r48[5|20] 143r48[5|20]
+X 16 controlador.ads
+3K9*controlador 10e16 24|5w6 5r23
+4U14*Calcular_Caudales_Optimos 24|100s10 134s10
+X 17 data_type.ads
+1K9*Data_Type 41e14 24|4w6 4r21
+24f4*Max_Temperature{float} 24|174r27
+27R9*Sensor_Data 32e14 24|14r14
+28f12*ST2{float} 24|109r22 168r41 174r21
+29f7*SC1{float} 24|103r22
+29f12*SC2{float} 24|136r22
+31f7*SD1{float} 24|143r22
+34R9*Input_Data 37e14 24|15r12
+X 18 guardar.ads
+3K9*guardar 12e12 24|6w6 6r19
+5U14*Inicializar_Archivos 24|57s4
+8U14*Guardar_Datos 24|117s13 151s13
+11U14*Guardar_Alarma 24|178s16
+X 23 leer.ads
+3K9*leer 7e9 24|7w6 7r16
+5U14*Leer_Datos 24|69s7
+X 24 main.adb
+12U11*Main 12b11 206l5 206t9
+14r4 Sensors{17|27R9} 69m28 69r28 100m46 100r46 103r14 107m40 107r40 109r14
+. 117r30 134m46 134r46 136r14 141m38 141r38 143r14 151r30 168r33 174r13 194r30
+15r4 Input{17|34R9} 69m21 100r39 107r33 134r39 141r31
+16b4 Usar_Caudales_Optimos{boolean} 100r55 134r55
+19o4 Start_Time{7|49O9} 60m4 61r26 62r23 63r25 64r27
+20o4 Next_Solar_Control{7|49O9} 61m4 72r19 74m10 74r32
+21o4 Next_MD_Control{7|49O9} 62m4 77r19 79m10 79r29
+22o4 Next_Safety_Check{7|49O9} 63m4 82r19 84m10 84r31
+23o4 Next_Display_Update{7|49O9} 64m4 87r19 89m10 89r33
+24o4 Period_Solar_Control{7|54O9} 74r53
+25o4 Period_MD_Control{7|54O9} 79r47
+26o4 Period_Safety_Check{7|54O9} 84r51
+27o4 Period_Display_Update{7|54O9} 89r55
+30o4 Timeout_Data_Storage{7|54O9} 116r53 150r53
+31o4 Timeout_Alarm_Storage{7|54O9} 177r57
+32o4 Timeout_Display{7|54O9} 192r48
+35b4 Solar_Control_Pending{boolean} 73m10 95r10 125m10
+36b4 MD_Control_Pending{boolean} 78m10 129r10 159m10
+37b4 Safety_Check_Pending{boolean} 83m10 163r10 185m10
+38b4 Display_Update_Pending{boolean} 88m10 113m10 147m10 171m10 189r10 199m10
+41i4 k{integer} 69r18 100r36 107r30 117r27 134r36 141r28 151r27 168r30 178r31
+. 194r27 203m7 203r12
+44o4 Data_Storage_Start{7|49O9} 115m10 116r33 149m10 150r33
+45o4 Alarm_Storage_Start{7|49O9} 176m13 177r36
+46o4 Display_Start{7|49O9} 191m10 192r33
+49V13 Timeout_Expired{boolean} 49b13 49>29 49>43 52l8 52t23 116s17 150s17
+. 177s20 192s17
+49o29 Start{7|49O9} 51r22
+49o43 Timeout{7|54O9} 51r30
+X 25 mostrar.ads
+3K9*mostrar 24|8w6 8r19 25|5e12
+4U14*Mostrar_Datos 24|194s13
+X 26 seguridad.ads
+2K9*seguridad 24|9w6 9r21 26|6e14
+4U14*Controlar_Seguridad 24|168s10
+X 27 simulacion.ads
+3K9*simulacion 24|10w6 10r22 27|25e15
+5U14*Simular_Campo_Solar 24|107s10
+12U14*Simular_Modulo_MD 24|141s10
+X 40 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

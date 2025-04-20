@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__ejercicio5.o
+[PROJECT FILES]
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\ejercicio5.gpr
+20250322160308 cd4ab280a187cbfbb64c4ae79ca8c8e8
+[BOUND OBJECT FILES]
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\obj\numeros_complejos.o
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\obj\ejercicio5.o
+[GENERATED SOURCE FILES]
+b__ejercicio5.ads
+b__ejercicio5.adb
+b__ejercicio5.ali
+[RESULTING OPTIONS]
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\obj\
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -36,7 +36,7 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D ejercicio5.adb	20250305185922 30c4db70 ejercicio5%b
+D ejercicio5.adb	20250322122748 30c4db70 ejercicio5%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -62,17 +62,17 @@ X 1 ada.ads
 16K9*Ada 20e8 14|1r6 1r23 2r6 2r24 3r6 3r35
 X 2 a-calend.ads
 36K13*Calendar 413e17 14|2w10 2r28 3r10 3r39
-42I9*Time<226I9> 14|7r18
-56V13*Clock{42I9} 14|7s26
+42I9*Time<226I9> 14|6r18
+56V13*Clock{42I9} 14|6s26
 226I9 Time_Rep<long_long_integer>
 X 3 a-calfor.ads
 24K22*Formatting 223e28 14|3w19 3r48
-176V13*Image{string} 14|10s41
+176V13*Image{string} 14|8s41
 X 12 a-textio.ads
 58K13*Text_IO 725e16 14|1w10 1r27
-506U14*Put_Line 14|13s4
+506U14*Put_Line 14|10s4
 X 14 ejercicio5.adb
-5U11*ejercicio5 5b11 14l5 14t15
-7i4 Hora_Actual{2|42I9} 10r47
-10a4 Hora_Formateada{string} 13r37
+5U11*ejercicio5 5b11 11l5 11t15
+6i4 Hora_Actual{2|42I9} 8r47
+8a4 Hora_Formateada{string} 10r37
 

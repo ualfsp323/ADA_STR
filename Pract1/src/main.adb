@@ -11,7 +11,7 @@ procedure Main is
    -- Variables para almacenar los datos de entrada y salida
    Input : Input_Data;
    Sensors : Sensor_Data;
-   Usar_Caudales_Optimos : Boolean := True;  -- Cambiar a False para usar caudales fijos
+   Usar_Caudales_Optimos : Boolean := False;  -- Cambiar a False para usar caudales fijos
 begin
    -- Inicializar los archivos (crear o limpiar)
    guardar.Inicializar_Archivos;

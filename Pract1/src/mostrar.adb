@@ -6,8 +6,8 @@ package body mostrar is
    begin
       -- Mostrar el número de iteración
       Put("Iteración ");
-      Put(Integer'Image(k));
-      New_Line;
+      Put_Line(Integer'Image(k));
+
 
       -- Mostrar los valores de los sensores con 2 decimales
       Put("ST1: ");

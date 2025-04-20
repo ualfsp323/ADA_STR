@@ -10,7 +10,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		9f498e56 NE OO SU
+U main%b		main.adb		a5b626ec NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -32,16 +32,16 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D controlador.ads	20250319144320 04e478e6 controlador%s
-D data_type.ads		20250321173802 6c56296f data_type%s
-D guardar.ads		20250319144320 076f32ec guardar%s
+D controlador.ads	20250322122750 04e478e6 controlador%s
+D data_type.ads		20250322122750 6c56296f data_type%s
+D guardar.ads		20250322122750 076f32ec guardar%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D leer.ads		20250319144320 23c9c33b leer%s
-D main.adb		20250321173854 06d90739 main%b
-D mostrar.ads		20250319144320 62d25a4a mostrar%s
-D seguridad.ads		20250319144320 07e078c4 seguridad%s
-D simulacion.ads	20250319144320 1e42ded2 simulacion%s
+D leer.ads		20250322122750 23c9c33b leer%s
+D main.adb		20250322154932 3c26af83 main%b
+D mostrar.ads		20250322122750 62d25a4a mostrar%s
+D seguridad.ads		20250322122750 07e078c4 seguridad%s
+D simulacion.ads	20250322122750 1e42ded2 simulacion%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s

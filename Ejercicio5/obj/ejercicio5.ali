@@ -1,0 +1,83 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ejercicio5%b		ejercicio5.adb		026f5109 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W numeros_complejos%s	numeros_complejos.adb	numeros_complejos.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D ejercicio5.adb	20250322160640 d5077868 ejercicio5%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D numeros_complejos.ads	20250322160604 799cfc0c numeros_complejos%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [ejercicio5 standard 4 11 none]
+G r c none [ejercicio5 standard 4 11 none] [Oadd numeros_complejos 9 13 none]
+G r c none [ejercicio5 standard 4 11 none] [mostrar numeros_complejos 18 14 none]
+G r c none [ejercicio5 standard 4 11 none] [Osubtract numeros_complejos 10 13 none]
+G r c none [ejercicio5 standard 4 11 none] [Omultiply numeros_complejos 11 13 none]
+G r c none [ejercicio5 standard 4 11 none] [Odivide numeros_complejos 12 13 none]
+G r c none [ejercicio5 standard 4 11 none] [conj numeros_complejos 15 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 11|1w10 1r27
+262U14*New_Line 11|15s4 21s4 27s4 33s4 39s4
+463U14*Put 11|13s4 19s4 25s4 31s4 37s4
+X 11 ejercicio5.adb
+4U11*ejercicio5 4b11 40l5 40t15
+5r4 C1{14|3R9} 8m4 12r12 18r13 24r16 30r16 36r22
+5r8 C2{14|3R9} 9m4 12r17 18r18 24r21 30r21
+5r12 Suma{14|3R9} 12m4 14r12
+5r18 Resta{14|3R9} 18m4 20r12
+5r25 Producto{14|3R9} 24m4 26r12
+5r35 Division{14|3R9} 30m4 32r12
+5r45 Conjugado{14|3R9} 36m4 38r12
+X 14 numeros_complejos.ads
+1K9*Numeros_Complejos 11|2w6 2r29 14|19e22
+3R9*Complejo 11|5r57 14|6e14
+4f7*Real{float} 11|8m11 9m11
+5f7*Imaginario{float} 11|8m24 9m24
+9V14*"+"{3R9} 11|12s15
+10V14*"-"{3R9} 11|18s16
+11V14*"*"{3R9} 11|24s19
+12V14*"/"{3R9} 11|30s19
+15V13*Conj{3R9} 11|36s17
+18U14*Mostrar 11|14s4 20s4 26s4 32s4 38s4
+

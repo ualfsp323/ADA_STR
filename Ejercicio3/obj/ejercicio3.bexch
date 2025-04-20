@@ -1,17 +1,17 @@
 [GENERATED OBJECT FILE]
 b__ejercicio3.o
 [PROJECT FILES]
-C:\Users\fsp28\Documents\ADA\Ejercicio3\ejercicio3.gpr
-20250311165020 2053b36c6ab8c278615edb5c8d62d7f8
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio3\ejercicio3.gpr
+20250322122748 0552b2a8f5522775754c4c424dda7ea9
 [BOUND OBJECT FILES]
-C:\Users\fsp28\Documents\ADA\Ejercicio3\obj\ejercicio3.o
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio3\obj\ejercicio3.o
 [GENERATED SOURCE FILES]
 b__ejercicio3.ads
 b__ejercicio3.adb
 b__ejercicio3.ali
 [RESULTING OPTIONS]
--LC:\Users\fsp28\Documents\ADA\Ejercicio3\obj\
--LC:\Users\fsp28\Documents\ADA\Ejercicio3\obj\
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio3\obj\
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio3\obj\
 -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
 -static
 -static-libgcc

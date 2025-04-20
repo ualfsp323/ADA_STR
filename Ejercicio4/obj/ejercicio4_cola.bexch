@@ -1,17 +1,17 @@
 [GENERATED OBJECT FILE]
 b__ejercicio4_cola.o
 [PROJECT FILES]
-C:\Users\fsp28\Documents\ADA\Ejercicio4\ejercicio4.gpr
-20250311170300 d188f363535259c4fb35ebe9b81af7da
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio4\ejercicio4.gpr
+20250322122748 0cedea6fb86baa9d78f5fda85d729fdc
 [BOUND OBJECT FILES]
-C:\Users\fsp28\Documents\ADA\Ejercicio4\obj\ejercicio4_Cola.o
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio4\obj\ejercicio4_Cola.o
 [GENERATED SOURCE FILES]
 b__ejercicio4_cola.ads
 b__ejercicio4_cola.adb
 b__ejercicio4_cola.ali
 [RESULTING OPTIONS]
--LC:\Users\fsp28\Documents\ADA\Ejercicio4\obj\
--LC:\Users\fsp28\Documents\ADA\Ejercicio4\obj\
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio4\obj\
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio4\obj\
 -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
 -static
 -static-libgcc

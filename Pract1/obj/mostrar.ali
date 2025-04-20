@@ -9,7 +9,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U mostrar%b		mostrar.adb		5ca01d6c NE OO PK IL
+U mostrar%b		mostrar.adb		12af50fd NE OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -32,11 +32,11 @@ D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D data_type.ads		20250321173802 6c56296f data_type%s
+D data_type.ads		20250322122750 6c56296f data_type%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D mostrar.ads		20250319144320 62d25a4a mostrar%s
-D mostrar.adb		20250319144320 710cd5eb mostrar%b
+D mostrar.ads		20250322122750 62d25a4a mostrar%s
+D mostrar.adb		20250322124930 3f03987a mostrar%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -64,9 +64,9 @@ X 3 a-flteio.ads
 X 10 a-textio.ads
 58K13*Text_IO 725e16 17|1w10 1r27
 87I12*Field{integer}
-262U14*New_Line 17|10s7 46s7
-463U14*Put 17|8s7 9s7 13s7 17s7 21s7 25s7 29s7 33s7 37s7 41s7
-506U14*Put_Line 17|15s7 19s7 23s7 27s7 31s7 35s7 39s7 43s7
+262U14*New_Line 17|46s7
+463U14*Put 17|8s7 13s7 17s7 21s7 25s7 29s7 33s7 37s7 41s7
+506U14*Put_Line 17|9s7 15s7 19s7 23s7 27s7 31s7 35s7 39s7 43s7
 X 11 a-tiflio.ads
 82U14*Put 17|14s7[3|20] 18s7[3|20] 22s7[3|20] 26s7[3|20] 30s7[3|20] 34s7[3|20]
 . 38s7[3|20] 42s7[3|20]
@@ -90,6 +90,6 @@ X 13 data_type.ads
 X 16 mostrar.ads
 3K9*mostrar 5l5 5e12 17|4b14 48l5 48t12
 4U14*Mostrar_Datos 4>28 4>44 17|5b14 47l8 47t21
-4i28 k{integer} 17|5b28 9r25
+4i28 k{integer} 17|5b28 9r30
 4r44 Sensors{13|27R9} 17|5b44 14r11 18r11 22r11 26r11 30r11 34r11 38r11 42r11
 

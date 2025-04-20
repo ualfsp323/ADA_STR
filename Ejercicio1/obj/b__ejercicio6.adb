@@ -256,9 +256,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\fsp28\Documents\ADA\obj\ejercicio6.o
-   --   -LC:\Users\fsp28\Documents\ADA\obj\
-   --   -LC:\Users\fsp28\Documents\ADA\obj\
+   --   C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\obj\ejercicio6.o
+   --   -LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\obj\
+   --   -LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnat

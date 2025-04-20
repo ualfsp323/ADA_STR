@@ -4,27 +4,179 @@
     <vfs_file />
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\fsp28\Documents\ADA\Ejercicio2\src\ejercicio2.adb</vfs_file>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\controlador.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\fsp28\Downloads\input.txt</vfs_file>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 17" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\main.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\fsp28\Documents\ADA\Ejercicio3\src\ejercicio3.adb</vfs_file>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\mostrar.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 46" line=" 22" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\fsp28\Documents\ADA\Ejercicio3\src\ejercicio3.adb</vfs_file>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\mostrar.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 3" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\fsp28\Documents\ADA\Ejercicio3\src\l.ads</vfs_file>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\mostrar.ads</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 4" line=" 3" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
-      <vfs_file>C:\Users\fsp28\Documents\ADA\Ejercicio3\src\l.adb</vfs_file>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\mostrar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\mostrar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\mostrar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 9" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\mostrar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\guardar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\guardar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\controlador.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 14" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\leer.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\leer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Pract1\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\ejercicio5.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\ejercicio5.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 32" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\ejercicio5.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 18" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 5" line=" 19" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\ejercicio5.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 18" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio5\src\numeros_complejos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 19" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 23" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio4.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio5.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio6.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio6.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio1\src\ejercicio7.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio2\src\ejercicio2.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio3\src\ejercicio3.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

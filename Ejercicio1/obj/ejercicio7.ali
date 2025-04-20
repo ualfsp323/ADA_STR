@@ -54,7 +54,7 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D ejercicio7.adb	20250305194538 64db45f7 ejercicio7%b
+D ejercicio7.adb	20250322122748 64db45f7 ejercicio7%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -95,28 +95,28 @@ X 8 a-string.ads
 X 11 a-strunb.ads
 83K21*Unbounded 765e26 16|2w18 2r45
 88R9*Unbounded_String<5|43R9> 744e15 16|12r25 13r25
-104V13*To_Unbounded_String{88R9} 16|29s29 30s29 39s29 40s29
-117V13*To_String{string} 16|55s32 56s35
+104V13*To_Unbounded_String{88R9} 16|28s29 29s29 38s29 39s29
+117V13*To_String{string} 16|54s32 55s35
 X 14 a-textio.ads
 58K13*Text_IO 725e16 16|1w10 1r27
-506U14*Put_Line 16|55s10 56s10 57s10
+506U14*Put_Line 16|54s10 55s10 56s10
 X 16 ejercicio7.adb
-4U11*Ejercicio7 4b11 64l5 64t15
+4U11*Ejercicio7 4b11 63l5 63t15
 5R9 Fecha_Nacimiento_Data 9e14 14r26
-6i7 Dia{integer} 31m31 41m31 58r68
-7i7 Mes{integer} 31m42 41m42 59r68
-8i7 Anio{integer} 31m52 41m52 60r68
-11R9 Datos_Personales 15e14 22r15
-12r7 Nombre{11|88R9} 29m10 39m10 55r60
-13r7 Apellidos{11|88R9} 30m10 40m10 56r63
-14r7 Fecha_Nacimiento{5R9} 31m10 41m10 58r51 59r51 60r51
-18R9 Nodo 19r32 21c9 24e14 27r34 37r39
-19P9 Puntero_Nodo(18R9) 23r19 27r14 37r19 52r21
-22r7 Datos{11R9} 28m7 38m7 55r54 56r57 58r45 59r45 60r45
-23p7 Siguiente{19P9} 33m7 43m7 48m12 61r37
-27p4 Mi_Nodo{19P9} 48r4 52r37
-37p4 Segundo_Nodo{19P9} 48r25
-52p7 Nodo_Actual{19P9} 54r13 55r42 56r45 58r33 59r33 60r33 61m10 61r25
+6i7 Dia{integer} 30m31 40m31 57r68
+7i7 Mes{integer} 30m42 40m42 58r68
+8i7 Anio{integer} 30m52 40m52 59r68
+11R9 Datos_Personales 15e14 21r15
+12r7 Nombre{11|88R9} 28m10 38m10 54r60
+13r7 Apellidos{11|88R9} 29m10 39m10 55r63
+14r7 Fecha_Nacimiento{5R9} 30m10 40m10 57r51 58r51 59r51
+17R9 Nodo 18r32 20c9 23e14 26r34 36r39
+18P9 Puntero_Nodo(17R9) 22r19 26r14 36r19 51r21
+21r7 Datos{11R9} 27m7 37m7 54r54 55r57 57r45 58r45 59r45
+22p7 Siguiente{18P9} 32m7 42m7 47m12 60r37
+26p4 Mi_Nodo{18P9} 47r4 51r37
+36p4 Segundo_Nodo{18P9} 47r25
+51p7 Nodo_Actual{18P9} 53r13 54r42 55r45 57r33 58r33 59r33 60m10 60r25
 X 19 system.ads
 67M9*Address
 X 30 s-memory.ads

@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__tareas_estaticas.o
+[PROJECT FILES]
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio8\ejercicio8.gpr
+20250420171038 f265e992b87cfaec00fbd5e4eb9708fd
+[BOUND OBJECT FILES]
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio8\obj\tareas_estaticas.o
+[GENERATED SOURCE FILES]
+b__tareas_estaticas.ads
+b__tareas_estaticas.adb
+b__tareas_estaticas.ali
+[RESULTING OPTIONS]
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio8\obj\
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio8\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
