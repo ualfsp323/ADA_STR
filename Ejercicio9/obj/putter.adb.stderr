@@ -1,0 +1,2 @@
+putter.adb:13:11: error: "Ada" is undefined
+putter.adb:13:11: error: missing "with Ada.Text_Io;"

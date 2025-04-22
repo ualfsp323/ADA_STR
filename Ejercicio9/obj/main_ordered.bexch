@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main_ordered.o
+[PROJECT FILES]
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr
+20250422152824 f6fc2a24f5bddcf40aacb0c34788a643
+[BOUND OBJECT FILES]
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\putter.o
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\semaphores.o
+C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\main_ordered.o
+[GENERATED SOURCE FILES]
+b__main_ordered.ads
+b__main_ordered.adb
+b__main_ordered.ali
+[RESULTING OPTIONS]
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\
+-LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
