@@ -38,7 +38,7 @@ procedure Main is
    Display_Update_Pending : Boolean := False;
 
    -- Contador de iteraciones
-   k : Integer := 1;
+   k : Integer := 20;
 
    -- Variables para el almacenamiento de datos
    Data_Storage_Start : Time;
@@ -64,7 +64,7 @@ begin
    Next_Display_Update := Start_Time;
 
    -- Bucle principal del ejecutivo cíclico
-   loop
+   for k in 1 .. 20 loop
       -- Leer datos de entrada (simulado)
       Leer_Datos(k, Input, Sensors);
 
@@ -199,8 +199,7 @@ begin
          Display_Update_Pending := False;
       end if;
 
-      -- Incrementar contador y pequeña pausa
-      k := k + 1;
+
       delay 1.001;
    end loop;
 end Main;

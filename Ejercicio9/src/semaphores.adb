@@ -1,4 +1,14 @@
 package body Semaphores is
+   procedure Wait(S: in out Semaphore) is
+   begin
+      S.Wait;
+   end Wait;
+   
+   procedure Signal(S: in out Semaphore) is
+   begin
+      S.Signal;
+   end Signal;
+   
    protected body Semaphore is
       entry Wait when Count > 0 is
       begin

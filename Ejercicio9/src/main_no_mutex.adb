@@ -1,4 +1,5 @@
 with Putter; use Putter;
+with Ada.Task_Identification; use Ada.Task_Identification;
 
 procedure Main_No_Mutex is
    task A;
@@ -32,6 +33,6 @@ procedure Main_No_Mutex is
    end C;
 
 begin
-   delay 1.0;  -- Espera a que terminen las tareas
-   Dump_Output;  -- ¡Aquí se imprime todo de una vez!
+   -- Espera suficiente para que todas las tareas terminen
+   delay 1.5;  -- Aumentado para dar tiempo a las escrituras con delay
 end Main_No_Mutex;

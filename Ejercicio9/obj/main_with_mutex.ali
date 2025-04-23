@@ -22,7 +22,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV MAX_TASKS=1+
 
-U main_ordered%b	main_ordered.adb	fc4d19ec NE OO SU
+U main_with_mutex%b	main_with_mutex.adb	c271b73f NE OO SU
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -53,7 +53,7 @@ D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
-D main_ordered.adb	20250423153202 44119d51 main_ordered%b
+D main_with_mutex.adb	20250423153334 7a2d3382 main_with_mutex%b
 D putter.ads		20250423152528 b7806a67 putter%s
 D semaphores.ads	20250423152412 0fdceeda semaphores%s
 D system.ads		20210520051136 2ffa5114 system%s
@@ -88,35 +88,32 @@ D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-win32.ads		20210520051136 15ac53fb system.win32%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main_ordered standard 4 11 none]
-G r s semaphore [main_ordered standard 4 11 none] [semaphoreVIP semaphores 6 4 none]
-G r l semaphore [main_ordered standard 4 11 none] [semaphoreVDI semaphores 6 4 none]
-G r k semaphore [main_ordered standard 4 11 none] [semaphoreVDF semaphores 6 4 none]
-G r c none [main_ordered standard 4 11 none] [wait semaphores 3 14 none]
-G r c none [main_ordered standard 4 11 none] [put_line putter 2 14 none]
-G r c none [main_ordered standard 4 11 none] [signal semaphores 4 14 none]
-X 16 main_ordered.adb
-4U11*Main_Ordered 4b11 55l5 55t17
-5w4 Mutex{18|2W9} 20m15 20r15 22m17 22r17 32m15 32r15 34m17 34r17 44m15 44r15
-. 46m17 46r17
-6w4 Sem_C{18|2W9} 23m17 23r17 43m15 43r15
-7w4 Sem_B{18|2W9} 31m15 31r15 47m17 47r17
-8w4 Sem_A{18|2W9} 19m15 19r15 35m17 35r17
-10t9 A 16b14 26l8 26t9
-11t9 B 28b14 38l8 38t9
-12t9 C 40b14 50l8 50t9
-14N4 N 18r19 30r19 42r19
-18i11 i{integer} 21r47
-30i11 i{integer} 33r47
-42i11 i{integer} 45r47
+G c Z b b [main_with_mutex standard 4 11 none]
+G r s semaphore [main_with_mutex standard 4 11 none] [semaphoreVIP semaphores 6 4 none]
+G r l semaphore [main_with_mutex standard 4 11 none] [semaphoreVDI semaphores 6 4 none]
+G r k semaphore [main_with_mutex standard 4 11 none] [semaphoreVDF semaphores 6 4 none]
+G r c none [main_with_mutex standard 4 11 none] [wait semaphores 3 14 none]
+G r c none [main_with_mutex standard 4 11 none] [put_line putter 2 14 none]
+G r c none [main_with_mutex standard 4 11 none] [signal semaphores 4 14 none]
+X 16 main_with_mutex.adb
+4U11*Main_With_Mutex 4b11 46l5 46t20
+5w4 Mutex{18|2W9} 16m15 16r15 18m17 18r17 26m15 26r15 28m17 28r17 36m15 36r15
+. 38m17 38r17
+7t9 A 13b14 21l8 21t9
+8t9 B 23b14 31l8 31t9
+9t9 C 33b14 41l8 41t9
+11N4 N 15r19 25r19 35r19
+15i11 i{integer} 17r47
+25i11 i{integer} 27r47
+35i11 i{integer} 37r47
 X 17 putter.ads
 1K9*Putter 16|1w6 1r18 17|3e11
-2U14*Put_Line 16|21s10 33s10 45s10
+2U14*Put_Line 16|17s10 27s10 37s10
 X 18 semaphores.ads
 1K9*Semaphores 16|2w6 2r22 18|12e15
-2W9*Semaphore 16|5r12 6r12 7r12 8r12 18|11e17
-3U14*Wait 16|19s10 20s10 31s10 32s10 43s10 44s10
-4U14*Signal 16|22s10 23s10 34s10 35s10 46s10 47s10
+2W9*Semaphore 16|5r12 18|11e17
+3U14*Wait 16|16s10 26s10 36s10
+4U14*Signal 16|18s10 28s10 38s10
 X 19 system.ads
 67M9*Address
 X 26 s-memory.ads

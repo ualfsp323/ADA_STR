@@ -2,70 +2,45 @@ V "GNAT Lib v2021"
 A -gnatA
 A -mtune=generic
 A -march=x86-64
-P SS ZX
+P ZX
 
 RN
+RV NO_DELAY
+RV NO_FIXED_POINT
 RV NO_IO
-RV NO_IMPLICIT_CONDITIONALS
-RV NO_LONG_LONG_INTEGERS
-RV NO_STANDARD_STORAGE_POOLS
-RV NO_UNCHECKED_ACCESS
-RV NO_DEFAULT_INITIALIZATION
+RV NO_RELATIVE_DELAY
 RV NO_DYNAMIC_SIZED_OBJECTS
-RV NO_IMPLEMENTATION_ATTRIBUTES
 RV NO_IMPLEMENTATION_PRAGMAS
-RV NO_IMPLICIT_LOOPS
-RV NO_ELABORATION_CODE
-RV NO_OBSOLESCENT_FEATURES
 
-U putter%b		putter.adb		9e922628 OO PK
+U putter%b		putter.adb		9fda8cbc NE OO PK
 W ada%s			ada.ads			ada.ali
-W ada.direct_io%s
-Z ada.io_exceptions%s	a-ioexce.ads		a-ioexce.ali
-W ada.strings%s		a-string.ads		a-string.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
-W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
-Z ada.unchecked_conversion%s
-W interfaces%s		interfac.ads		interfac.ali
-Z interfaces.c_streams%s  i-cstrea.adb		i-cstrea.ali
-W system%s		system.ads		system.ali
-Z system.crtl%s		s-crtl.ads		s-crtl.ali
-Z system.direct_io%s	s-direio.adb		s-direio.ali
-Z system.file_control_block%s  s-ficobl.ads	s-ficobl.ali
-Z system.file_io%s	s-fileio.adb		s-fileio.ali
-Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
 
-U putter%s		putter.ads		88856bed EE NE OO PK
+U putter%s		putter.ads		b7806a67 EE NE OO PK
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
-D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
-D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
-D a-direio.ads		20210520051128 a93c9b31 ada.direct_io%s
-D a-direio.adb		20210520051128 dc70efaa ada.direct_io%b
+D a-calend.ads		20210520051128 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
-D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
 D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
 D a-string.ads		20210520051130 90ac6797 ada.strings%s
-D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
 D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
-D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
 D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D putter.ads		20250422154412 88856bed putter%s
-D putter.adb		20250422155158 bc1984d3 putter%b
+D putter.ads		20250423152528 b7806a67 putter%s
+D putter.adb		20250423152700 86ae33b6 putter%b
 D system.ads		20210520051136 2ffa5114 system%s
-D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
-D s-direio.ads		20210520051132 7c86ede3 system.direct_io%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
-D s-fileio.ads		20210520051132 45ce2f0f system.file_io%s
-D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
 D s-putima.ads		20210520051134 4e095881 system.put_images%s
 D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
@@ -74,56 +49,22 @@ D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
 D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
 D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
 D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
-D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z s b [put_line putter 2 14 none]
-G c Z b b [create putter__line_io 74 14 8_4]
-G c Z b b [open putter__line_io 80 14 8_4]
-G c Z b b [close putter__line_io 86 14 8_4]
-G c Z b b [delete putter__line_io 87 14 8_4]
-G c Z b b [reset putter__line_io 88 14 8_4]
-G c Z b b [reset putter__line_io 89 14 8_4]
-G c Z b b [mode putter__line_io 91 13 8_4]
-G c Z b b [name putter__line_io 92 13 8_4]
-G c Z b b [form putter__line_io 93 13 8_4]
-G c Z b b [is_open putter__line_io 95 13 8_4]
-G c Z b b [flush putter__line_io 97 14 8_4]
-G c Z b b [read putter__line_io 103 14 8_4]
-G c Z b b [read putter__line_io 108 14 8_4]
-G c Z b b [write putter__line_io 112 14 8_4]
-G c Z b b [write putter__line_io 117 14 8_4]
-G c Z b b [set_index putter__line_io 121 14 8_4]
-G c Z b b [index putter__line_io 123 13 8_4]
-G c Z b b [size putter__line_io 124 13 8_4]
-G c Z b b [end_of_file putter__line_io 126 13 8_4]
-G c Z b b [to_fcb putter__line_io 61 13 8_4]
-G c Z b b [to_dio putter__line_io 62 13 8_4]
 X 1 ada.ads
-16K9*Ada 20e8 20|2r6 3r6 3r33 8r27
-X 4 a-direio.ads
-43k13*Direct_IO 193e18 20|2w10 8r31
-53P9*File_Type<24|81P9> 20|10r26[8]
-55E9*File_Mode
-55n44*Out_File{55E9[20|8]} 20|18r46[8]
-74U14 Create 20|18s18[8]
-117U14 Write 20|27s15[8]
-X 10 a-string.ads
-16K13*Strings 35e16 20|3r10 3r37
-X 13 a-strunb.ads
-83K21*Unbounded 765e26 20|3w18 3r45
-X 19 putter.ads
-1K9*Putter 3l5 3e11 20|5b14 29l5 29t11
-2U14*Put_Line 2>23 20|13b14 28l8 28t16
-2a23 S{string} 20|13b23 23r36 24r10 24r29
-X 20 putter.adb
-7A12 Line_String{string}<integer> 8r41 14r21
-8K12 Line_IO[4|43] 10r18 18r10 18r38 27r7
-10p4 Output_File{4|53P9[8]} 18m25 18r25 27r21
-11b4 Is_File_Open{boolean} 17r14 19m10
-14a7 Padded_Line{7A12} 23m7 23r46 24r39 27r34
-X 24 s-direio.ads
-81P9*File_Type(53R9)
+16K9*Ada 20e8 16|1r6 7r10 11r7
+X 11 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 7r14 11r11
+262U14*New_Line 16|11s19
+390U14*Put 16|7s22
+X 15 putter.ads
+1K9*Putter 3l5 3e11 16|2b14 14l5 14t11
+2U14*Put_Line 2>24 16|4b14 12l8 12t16
+2a24 str{string} 16|4b24 6r16 7r26
+X 16 putter.adb
+6i11 i{integer} 7r30
 

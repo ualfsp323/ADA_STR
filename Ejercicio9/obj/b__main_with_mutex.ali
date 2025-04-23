@@ -18,13 +18,13 @@ RV NO_IMPLICIT_LOOPS
 RV NO_ELABORATION_CODE
 RV NO_OBSOLESCENT_FEATURES
 
-U ada_main%b		b__main_ordered.adb	3ecb5af3 OO PK IL
+U ada_main%b		b__main_with_mutex.adb	8ab0927d OO PK IL
 W ada%s			ada.ads			ada.ali
 W ada.exceptions%s	a-except.adb		a-except.ali
 W system%s		system.ads		system.ali
 W system.restrictions%s	s-restri.adb		s-restri.ali
 
-U ada_main%s		b__main_ordered.ads	89698445 EE NE OO PK IL
+U ada_main%s		b__main_with_mutex.ads	116bdacc EE NE OO PK IL
 W system%s		system.ads		system.ali
 W system.parameters%s	s-parame.adb		s-parame.ali
 W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
@@ -32,8 +32,8 @@ W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 D ada.ads		20210520051132 76789da1 ada%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D b__main_ordered.ads	20250423153206 7afba8d1 ada_main%s
-D b__main_ordered.adb	20250423153206 cbc2c444 ada_main%b
+D b__main_with_mutex.ads  20250423153346 e2f9f658 ada_main%s
+D b__main_with_mutex.adb  20250423153346 e7bb5243 ada_main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
 D s-restri.ads		20210520051134 1b9d0672 system.restrictions%s
@@ -53,7 +53,7 @@ X 1 ada.ads
 16K9*Ada 20e8 5|8r6
 X 2 a-except.ads
 44K13*Exceptions 289e19 5|8w10
-X 4 b__main_ordered.ads
+X 4 b__main_with_mutex.ads
 6K9*ada_main 614l5 614e13 5|10b14 340l5 340t13
 8i4*gnat_argc{integer} 12m22 12r22 5|310r10 311m10
 9m4*gnat_argv{6|67M9} 13m22 13r22 5|312m10
@@ -275,7 +275,7 @@ X 4 b__main_ordered.ads
 415m4*u00187{42M9} 416r22
 417m4*u00188{42M9} 418r22
 419m4*u00189{42M9} 420r22
-X 5 b__main_ordered.adb
+X 5 b__main_with_mutex.adb
 12i4 E071{short_integer} 12m46 12r46 235m7 235r15
 13i4 E010{short_integer} 13m46 13r46 241m7 241r15
 14i4 E015{short_integer} 14m46 14r46 238m7 238r15
@@ -347,7 +347,7 @@ X 5 b__main_ordered.adb
 143p7*Finalize_Library_Objects{103P9} 144m25 144r25 210m7
 145i7*Binder_Sec_Stacks_Count{natural} 146m27 146r27 205m7
 147m7*Default_Sized_SS_Pool{6|67M9} 148m27 148r27 206m7
-290U14 Ada_Main_Program 291b<ada,_ada_main_ordered>24 318s7
+290U14 Ada_Main_Program 291b<ada,_ada_main_with_mutex>24 318s7
 299U17*Initialize 299>29 300b<c,__gnat_initialize>25 316s7
 299m29 Addr{6|67M9}
 302U17*Finalize 303b<c,__gnat_finalize>25 320s7

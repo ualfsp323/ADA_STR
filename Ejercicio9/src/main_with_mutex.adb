@@ -2,7 +2,7 @@ with Putter; use Putter;
 with Semaphores; use Semaphores;
 
 procedure Main_With_Mutex is
-   Mutex : Semaphore;
+   Mutex : Semaphore(Initial => 1);  -- Semáforo binario para exclusión mutua
    
    task A;
    task B;
@@ -13,9 +13,9 @@ procedure Main_With_Mutex is
    task body A is
    begin
       for i in 1..N loop
-         Mutex.Wait;
+         Wait(Mutex);    -- Adquiere el mutex
          Put_Line("Tarea A: " & Integer'Image(i));
-         Mutex.Signal;
+         Signal(Mutex);  -- Libera el mutex
          delay 0.1;
       end loop;
    end A;
@@ -23,9 +23,9 @@ procedure Main_With_Mutex is
    task body B is
    begin
       for i in 1..N loop
-         Mutex.Wait;
+         Wait(Mutex);    -- Adquiere el mutex
          Put_Line("Tarea B: " & Integer'Image(i));
-         Mutex.Signal;
+         Signal(Mutex);  -- Libera el mutex
          delay 0.1;
       end loop;
    end B;
@@ -33,13 +33,14 @@ procedure Main_With_Mutex is
    task body C is
    begin
       for i in 1..N loop
-         Mutex.Wait;
+         Wait(Mutex);    -- Adquiere el mutex
          Put_Line("Tarea C: " & Integer'Image(i));
-         Mutex.Signal;
+         Signal(Mutex);  -- Libera el mutex
          delay 0.1;
       end loop;
    end C;
 
 begin
-   null;
+   -- Esperar a que todas las tareas terminen
+   delay 2.0;
 end Main_With_Mutex;
