@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 67" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 6" line=" 202" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

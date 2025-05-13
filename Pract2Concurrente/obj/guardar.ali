@@ -1,0 +1,122 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U guardar%b		guardar.adb		547023e2 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U guardar%s		guardar.ads		6b391b83 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W data_type%s		data_type.ads		data_type.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D data_type.ads		20250423141644 6c56296f data_type%s
+D guardar.ads		20250423141644 076f32ec guardar%s
+D guardar.adb		20250423141644 1c6183c3 guardar%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [inicializar_archivos guardar 5 14 none]
+G c Z s b [guardar_datos guardar 8 14 none]
+G c Z s b [guardar_alarma guardar 11 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r23 2r6 2r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 15|2w10 2r33
+X 10 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 1r27
+65P9*File_Type 15|8r31 35r14 67r14
+67n32*Out_File{67E9} 15|12r26 17r31 23r27 28r32
+67n42*Append_File{67E9} 15|38r18 70r18
+87I12*Field{integer}
+97U14*Create 15|17s13 28s13
+112U14*Open 15|12s10 23s10 38s7 70s7
+127U14*Close 15|19s7 30s7 62s7 76s7
+256U14*New_Line 15|59s7
+457U14*Put 15|42s7 43s7 45s7 47s7 49s7 51s7 53s7 55s7 57s7
+496U14*Put_Line 15|73s7
+542X4*Name_Error 15|15r15 26r15
+X 11 a-tiflio.ads
+69U14*Put 15|44s7[3|20] 46s7[3|20] 48s7[3|20] 50s7[3|20] 52s7[3|20] 54s7[3|20]
+. 56s7[3|20] 58s7[3|20]
+72i7 Fore{10|87I12} 15|44r30[3|20] 46r30[3|20] 48r30[3|20] 50r30[3|20] 52r30[3|20]
+. 54r30[3|20] 56r30[3|20] 58r30[3|20]
+73i7 Aft{10|87I12} 15|44r41[3|20] 46r41[3|20] 48r41[3|20] 50r41[3|20] 52r41[3|20]
+. 54r41[3|20] 56r41[3|20] 58r41[3|20]
+74i7 Exp{10|87I12} 15|44r51[3|20] 46r51[3|20] 48r51[3|20] 50r51[3|20] 52r51[3|20]
+. 54r51[3|20] 56r51[3|20] 58r51[3|20]
+X 13 data_type.ads
+1K9*Data_Type 41e14 14|1w6 1r21
+27R9*Sensor_Data 32e14 14|8r57 15|34r57
+28f7*ST1{float} 15|44r25
+28f12*ST2{float} 15|46r25
+28f17*ST3{float} 15|48r25
+28f22*ST4{float} 15|50r25
+29f7*SC1{float} 15|52r25
+29f12*SC2{float} 15|54r25
+30f7*SR1{float} 15|56r25
+31f7*SD1{float} 15|58r25
+X 14 guardar.ads
+3K9*guardar 12l5 12e12 15|4b14 79l5 79t12
+5U14*Inicializar_Archivos 15|7b14 31l8 31t28
+8U14*Guardar_Datos 8>28 8>44 15|34b14 63l8 63t21
+8i28 k{integer} 15|34b28 42r31
+8r44 Sensors{13|27R9} 15|34b44 44r17 46r17 48r17 50r17 52r17 54r17 56r17
+. 58r17
+11U14*Guardar_Alarma 11>29 11>45 15|66b14 77l8 77t22
+11i29 k{integer} 15|66b29 73r51
+11a45 mensaje{string} 15|66b45 73r63
+X 15 guardar.adb
+8p7 File_Data{10|65P9} 12m15 12r15 17m20 17r20 19m13 19r13
+8p18 File_Alarm{10|65P9} 23m15 23r15 28m20 28r20 30m13 30r13
+35p7 File{10|65P9} 38m12 38r12 42r11 43r11 44r11 45r11 46r11 47r11 48r11
+. 49r11 50r11 51r11 52r11 53r11 54r11 55r11 56r11 57r11 58r11 59r16 62m13
+. 62r13
+67p7 File{10|65P9} 70m12 70r12 73r16 76m13 76r13
+
