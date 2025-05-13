@@ -12,8 +12,8 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV MAX_TASKS=1+
 
-U main%b		main.adb		fd246d0e NE OO SU
-W putterserver%s	putterserver.adb	putterserver.ali
+U main%b		main.adb		cb5eec08 NE OO SU
+W puttergetterserver%s	puttergetterserver.adb	puttergetterserver.ali
 Z system%s		system.ads		system.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.tasking%s	s-taskin.adb		s-taskin.ali
@@ -33,9 +33,9 @@ D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
-D main.adb		20250507144100 aee56761 main%b
-D putter.ads		20250423152528 b7806a67 putter%s
-D putterserver.ads	20250507143940 53c10a6f putterserver%s
+D main.adb		20250513175946 b833dafe main%b
+D putter.ads		20250513153520 b7806a67 putter%s
+D puttergetterserver.ads  20250513180226 736d36f6 puttergetterserver%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -65,18 +65,18 @@ D s-win32.ads		20210520051136 15ac53fb system.win32%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z b b [main standard 3 11 none]
-G r s putter_client [main standard 3 11 none] [putter_clientVIP putterserver 8 4 none]
-G r q none [main standard 3 11 none] [putter_client putterserver 8 14 none]
-G r r none [main standard 3 11 none] [start putterserver__putter_client 9 13 none]
+G r s puttergetter_client [main standard 3 11 none] [puttergetter_clientVIP puttergetterserver 12 4 none]
+G r q none [main standard 3 11 none] [puttergetter_client puttergetterserver 12 14 none]
+G r r none [main standard 3 11 none] [start puttergetterserver__puttergetter_client 13 13 none]
 X 14 main.adb
 3U11*Main 3b11 13l5 13t9
-5t4 Task_A{16|8T14} 10r4
-6t4 Task_B{16|8T14} 11r4
-7t4 Task_C{16|8T14} 12r4
-X 16 putterserver.ads
-3K9*PutterServer 14|1w6 1r24 16|11e17
-8T14*Putter_Client 14|5r13 6r13 7r13 16|10e21
-9Y13 Start 14|10s11 11s11 12s11
+5t4 Task_A{16|12T14} 10r4
+6t4 Task_B{16|12T14} 11r4
+7t4 Task_C{16|12T14} 12r4
+X 16 puttergetterserver.ads
+3K9*PutterGetterServer 14|1w6 1r30 16|15e23
+12T14*PutterGetter_Client 14|5r13 6r13 7r13 16|14e27
+13Y13 Start 14|10s11 11s11 12s11
 X 28 s-stausa.ads
 208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
 273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22

@@ -65,8 +65,7 @@ package body PutterGetterServer is
          --  Mostrar prompt y leer
          Request_Access;
          Putter.Put_Line
-           ("Tarea " & Task_Name & ": Introduce texto para iteración"
-            & Integer'Image (I) & " --> ");
+           ("Tarea " & Task_Name & ": Introduce texto para iteración" & Integer'Image (I) & " --> ");
          Get_Line (Buffer, Last);
          Release_Access;
 

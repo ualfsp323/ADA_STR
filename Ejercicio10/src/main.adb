@@ -1,13 +1,13 @@
-with PutterServer; use PutterServer;
+with PutterGetterServer; use PutterGetterServer;
 
 procedure Main is
    -- Crear instancias de las tareas cliente
-   Task_A : Putter_Client;
-   Task_B : Putter_Client;
-   Task_C : Putter_Client;
+   Task_A : PutterGetter_Client;
+   Task_B : PutterGetter_Client;
+   Task_C : PutterGetter_Client;
 begin
-   -- Iniciar las tareas con sus parámetros (5 iteraciones cada una)
-   Task_A.Start('A', 5);
-   Task_B.Start('B', 5);
-   Task_C.Start('C', 5);
+   -- Iniciar las tareas con sus parámetros (2 iteraciones cada una para no hacerlo muy largo)
+   Task_A.Start('A', 2);
+   Task_B.Start('B', 2);
+   Task_C.Start('C', 2);
 end Main;
