@@ -8,6 +8,8 @@ package body seguridad is
       -- Verificar si la temperatura supera el límite de seguridad
       if ST2 > Max_Temperature then
          Put_Line("ALARMA: Temperatura en ST2 supera 95 °C en iteración " & Integer'Image(k));
+         Put_Line(" Seguridad --> guardando alarma (máx 10 ms)...");
+         Put_Line("");
          Guardar_Alarma(k, "Temperatura en ST2 supera 95 °C");
       end if;
    end Controlar_Seguridad;

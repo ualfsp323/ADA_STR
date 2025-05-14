@@ -2,10 +2,7 @@ with Ada.Text_IO;         use Ada.Text_IO;
 with Putter;              use Putter;
 
 package body PutterGetterServer is
-
-   ---------------------------------
    --  Servidor protegido (candado)
-   ---------------------------------
    protected Console_Lock is
       entry Acquire;
       procedure Release;
@@ -24,10 +21,8 @@ package body PutterGetterServer is
          Busy := False;
       end Release;
    end Console_Lock;
-
-   ---------------------------------
+   
    --  API pública
-   ---------------------------------
    procedure Request_Access is
    begin
       Console_Lock.Acquire;
@@ -45,9 +40,7 @@ package body PutterGetterServer is
       Release_Access;
    end Safe_Print;
 
-   ---------------------------------
    --  Tarea cliente
-   ---------------------------------
    task body PutterGetter_Client is
       Task_Name    : Character;
       N_Iterations : Positive;

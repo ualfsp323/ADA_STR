@@ -1,19 +1,19 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr
-20250513153520 671970833498b0e0e46ce2c2bc104637
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr
+20250507141556 d5de005448ff895f0f317a4f30168f47
 [BOUND OBJECT FILES]
-C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\obj\putter.o
-C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\obj\puttergetterserver.o
-C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\obj\main.o
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\obj\putter.o
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\obj\puttergetterserver.o
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\obj\
--LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\obj\
+-LC:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\obj\
+-LC:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\obj\
 -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
 -static
 -static-libgcc

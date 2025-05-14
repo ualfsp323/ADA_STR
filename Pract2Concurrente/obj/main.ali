@@ -7,13 +7,23 @@ P ZX
 
 RN
 RV NO_DELAY
+RV NO_FIXED_POINT
 RV NO_FLOATING_POINT
 RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
 
-U main%b		main.adb		7253036a NE OO SU
+U main%b		main.adb		72049050 NE OO SU
 W ad_card%s		ad_card.adb		ad_card.ali
 W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -24,10 +34,23 @@ W guardar%s		guardar.adb		guardar.ali
 W mostrar%s		mostrar.adb		mostrar.ali
 W seguridad%s		seguridad.adb		seguridad.ali
 W simulacion%s		simulacion.adb		simulacion.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-D ad_card.ads		20250509160446 66db8517 ad_card%s
+D ad_card.ads		20250514152838 4296ecf6 ad_card%s
 D ada.ads		20210520051132 76789da1 ada%s
+D a-calend.ads		20210520051128 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
 D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
 D a-retide.ads		20210520051128 081cdaa4 ada.real_time.delays%s
@@ -45,15 +68,19 @@ D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20250509174804 af8e01f7 main%b
+D main.adb		20250514162124 8b94fb2c main%b
 D mostrar.ads		20250423141644 62d25a4a mostrar%s
 D seguridad.ads		20250423141644 07e078c4 seguridad%s
 D simulacion.ads	20250423141644 1d5def7f simulacion%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
 D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
 D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
@@ -69,6 +96,10 @@ D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
 D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
 D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
 D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tassta.ads		20210520051128 cca55c94 system.tasking.stages%s
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
@@ -76,72 +107,74 @@ D s-win32.ads		20210520051136 15ac53fb system.win32%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z b b [main standard 11 11 none]
-G r c none [main standard 11 11 none] [initialize_ad_card ad_card 18 14 none]
-G r c none [main standard 11 11 none] [access_ad_card ad_card 9 14 none]
-G r c none [main standard 11 11 none] [guardar_alarma guardar 11 14 none]
+G r o none [main standard 11 11 none] [request_read ad_card__ad_card_server 10 13 none]
+G r c none [main standard 11 11 none] [controlar_seguridad seguridad 4 14 none]
 G r c none [main standard 11 11 none] [calcular_caudales_optimos controlador 4 14 none]
 G r c none [main standard 11 11 none] [simular_campo_solar simulacion 5 14 none]
+G r o none [main standard 11 11 none] [request_write_sc1 ad_card__ad_card_server 11 13 none]
 G r c none [main standard 11 11 none] [simular_modulo_md simulacion 12 14 none]
-G r c none [main standard 11 11 none] [controlar_seguridad seguridad 4 14 none]
+G r o none [main standard 11 11 none] [request_write_sc2 ad_card__ad_card_server 12 13 none]
 G r c none [main standard 11 11 none] [mostrar_datos mostrar 4 14 none]
+G r c none [main standard 11 11 none] [initialize_ad_card ad_card 6 14 none]
 X 1 ad_card.ads
-4K9*AD_Card 19e12 21|8w6 8r19
-6n28*READ{6E9} 21|32r22
-6n34*WRITE_SC1{6E9} 21|45r22 77r22 92r22
-6n45*WRITE_SC2{6E9} 21|52r22 98r22
-9U14*Access_AD_Card 21|32s7 45s7 52s7 77s7 92s7 98s7
-18U14*Initialize_AD_Card 21|25s4
+3K9*AD_Card 16e12 24|4w6 4r19
+6U14*Initialize_AD_Card 24|86s4
+9w14*AD_Card_Server 24|28r10 50r10 54r10 71r10 74r10
+10Y13 Request_Read 24|28s25 50s25 71s25
+11Y13 Request_Write_SC1 24|54s25
+12Y13 Request_Write_SC2 24|74s25
 X 2 ada.ads
-16K9*Ada 20e8 21|1r6 1r23 2r6 2r25
-X 5 a-reatim.ads
-39K13*Real_Time 185e18 21|2w10 2r29
-49O9*Time<duration> 21|19r8
-54O9*Time_Span<duration> 21|20r23
-61V13*Clock{49O9} 21|27s9
-65V14*"+"{49O9} 21|40s14 63s14 73s14 88s14
-119V13*Milliseconds{54O9} 21|20s36
-X 12 a-textio.ads
-58K13*Text_IO 725e16 21|1w10 1r27
-506U14*Put_Line 21|24s4 38s7 39s7 57s7 58s7 61s7 62s7 66s7 67s7 71s7 72s7
-. 82s7 83s7 86s7 87s7 103s7 104s7 110s7 111s7 120s4
-X 14 controlador.ads
-3K9*controlador 10e16 21|4w6 4r23
-4U14*Calcular_Caudales_Optimos 21|42s7
-X 15 data_type.ads
-1K9*Data_Type 41e14 21|3w6 3r21
-27R9*Sensor_Data 32e14 21|13r14
-28f12*ST2{float} 21|59r52 68r52 84r52 105r52
-34R9*Input_Data 37e14 21|14r12
-X 16 guardar.ads
-3K9*guardar 12e12 21|9w6 9r19
-11U14*Guardar_Alarma 21|34s10 47s10 54s10 79s10 94s10 100s10
-X 21 main.adb
-11U11*Main 11b11 121l5 121t9
-13r4 Sensors{15|27R9} 32m45 32r45 42m57 42r57 44m51 44r51 45m50 45r50 51m49
-. 51r49 52m50 52r50 59r44 68r44 76m51 76r51 77m50 77r50 84r44 91m51 91r51
-. 92m50 92r50 97m49 97r49 98m50 98r50 105r44 113r38
-14r4 Input{15|34R9} 32m54 42r50 44r44 45m59 51r42 52m59 76r44 77m59 91r44
-. 92m59 97r42 98m59
-15b4 Usar_Caudales_Optimos{boolean} 42r66
-16b4 AD_Success{boolean} 32m61 33r14 45m66 46r14 52m66 53r14 77m66 78r14
-. 92m66 93r14 98m66 99r14
-19o4 T{5|49O9} 27m4 40m7 40r12 41r19 63m7 63r12 64r19 73m7 73r12 74r19 88m7
-. 88r12 89r19
-20o4 Periodo{5|54O9} 40r16 63r16 73r16 88r16
-21i4 Contador_Ciclos{integer} 32r28 34r25 42r33 44r27 45r33 47r25 51r25 52r33
-. 54r25 59r27 68r27 76r27 77r33 79r25 84r27 91r27 92r33 94r25 97r25 98r33
-. 100r25 105r27 113r21 114m7 114r26 117r17
-X 22 mostrar.ads
-3K9*mostrar 21|5w6 5r19 22|5e12
-4U14*Mostrar_Datos 21|113s7
-X 23 seguridad.ads
-2K9*seguridad 21|6w6 6r21 23|6e14
-4U14*Controlar_Seguridad 21|59s7 68s7 84s7 105s7
-X 24 simulacion.ads
-3K9*simulacion 21|7w6 7r22 24|25e15
-5U14*Simular_Campo_Solar 21|44s7 76s7 91s7
-12U14*Simular_Modulo_MD 21|51s7 97s7
-X 37 s-stausa.ads
+16K9*Ada 20e8 24|1r6 1r23 2r6 2r25
+X 8 a-reatim.ads
+39K13*Real_Time 185e18 24|2w10 2r29
+49O9*Time<duration> 24|21r17 42r17 64r17
+54O9*Time_Span<duration> 24|22r26 43r26 65r26
+61V13*Clock{49O9} 24|21s25 42s25 64s25
+65V14*"+"{49O9} 24|25s17 47s17 68s17
+119V13*Milliseconds{54O9} 24|22s39 43s39 65s39
+X 15 a-textio.ads
+58K13*Text_IO 725e16 24|1w10 1r27
+506U14*Put_Line 24|26s10 27s10 29s10 31s10 48s10 53s10 55s10 69s10 73s10
+. 75s10 76s12 85s4 87s4 90s4
+X 17 controlador.ads
+3K9*controlador 10e16 24|6w6 6r23
+4U14*Calcular_Caudales_Optimos 24|51s10
+X 18 data_type.ads
+1K9*Data_Type 41e14 24|3w6 3r21
+27R9*Sensor_Data 32e14 24|12r14
+28f12*ST2{float} 24|30r45
+34R9*Input_Data 37e14 24|13r14
+X 19 guardar.ads
+3K9*guardar 12e12 24|5w6 5r19
+X 24 main.adb
+11U11*Main 11b11 91l5 91t9
+12r4 Sensors{18|27R9} 28m45 28r45 30r37 50m45 50r45 51m50 51r50 52m44 52r44
+. 54r50 71m45 71r45 72m42 72r42 74r50 77r32
+13r4 Input{18|34R9} 28m54 50m54 51r43 52r37 71m54 72r35
+15t9 Tarea_Seguridad 20b14 37l8 37t23
+16t9 Tarea_SC1 41b14 60l8 60t17
+17t9 Tarea_SC2 63b14 82l8 82t17
+21o7 T{8|49O9} 25m10 25r15 35r22
+22o7 Periodo{8|54O9} 25r19
+24i11 Ciclo{integer} 27r56 28r38 30r30
+42o7 T{8|49O9} 47m10 47r15 58r22
+43o7 Periodo{8|54O9} 47r19
+44b7 Usar{boolean} 51r59
+46i11 Ciclo{integer} 48r65 50r38 51r36 52r30 54r43
+64o7 T{8|49O9} 68m10 68r15 80r22
+65o7 Periodo{8|54O9} 68r19
+67i11 Ciclo{integer} 69r62 71r38 72r28 74r43 77r25
+X 25 mostrar.ads
+3K9*mostrar 24|8w6 8r19 25|5e12
+4U14*Mostrar_Datos 24|77s11
+X 26 seguridad.ads
+2K9*seguridad 24|9w6 9r21 26|6e14
+4U14*Controlar_Seguridad 24|30s10
+X 27 simulacion.ads
+3K9*simulacion 24|7w6 7r22 27|25e15
+5U14*Simular_Campo_Solar 24|52s10
+12U14*Simular_Modulo_MD 24|72s10
+X 44 s-stausa.ads
 208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
 273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
 

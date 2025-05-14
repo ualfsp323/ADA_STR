@@ -5,35 +5,50 @@ A -march=x86-64
 P ZX
 
 RN
-RV NO_DELAY
-RV NO_FIXED_POINT
+RV SIMPLE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
 RV NO_FLOATING_POINT
 RV NO_IO
-RV NO_RELATIVE_DELAY
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_PROTECTED_ENTRIES=3
 
-U ad_card%b		ad_card.adb		70feca75 NE OO PK
+U ad_card%b		ad_card.adb		bbf6f5e1 NE OO PK
 W ada%s			ada.ads			ada.ali
-Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W guardar%s		guardar.adb		guardar.ali
 W leer%s		leer.adb		leer.ali
+Z system%s		system.ads		system.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
 
-U ad_card%s		ad_card.ads		0a8dac78 EE NE OO PK
+U ad_card%s		ad_card.ads		2ec0c599 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W data_type%s		data_type.ads		data_type.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
 
-D ad_card.ads		20250509160446 66db8517 ad_card%s
-D ad_card.adb		20250509173412 7dfd2c78 ad_card%b
+D ad_card.ads		20250514152838 4296ecf6 ad_card%s
+D ad_card.adb		20250514153102 92b87a0d ad_card%b
 D ada.ads		20210520051132 76789da1 ada%s
-D a-calend.ads		20210520051128 474d9720 ada.calendar%s
-D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
 D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
 D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
@@ -47,72 +62,110 @@ D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D data_type.ads		20250423141644 6c56296f data_type%s
 D guardar.ads		20250423141644 076f32ec guardar%s
 D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D leer.ads		20250423141644 23c9c33b leer%s
 D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
 D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
 D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
 D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
 D s-parame.ads		20210520051134 4752c4cb system.parameters%s
 D s-putima.ads		20210520051134 4e095881 system.put_images%s
 D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
 D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
 D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
 D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
 D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
 D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z s b [access_ad_card ad_card 9 14 none]
-G c Z s b [initialize_ad_card ad_card 18 14 none]
-G r c none [access_ad_card ad_card 9 14 none] [leer_datos leer 5 14 none]
-G r c none [access_ad_card ad_card 9 14 none] [guardar_datos guardar 8 14 none]
-G r c none [initialize_ad_card ad_card 18 14 none] [inicializar_archivos guardar 5 14 none]
+G c Z s b [initialize_ad_card ad_card 6 14 none]
+G c Z s b [request_read ad_card__ad_card_server 10 13 none]
+G c Z s b [request_write_sc1 ad_card__ad_card_server 11 13 none]
+G c Z s b [request_write_sc2 ad_card__ad_card_server 12 13 none]
+G c Z s s [ad_card_serverTVDI ad_card 9 4 none]
+G c Z s s [ad_card_serverTVDF ad_card 9 4 none]
+G c Z s s [ad_card_serverTVIP ad_card 9 4 none]
+G c Z s s [P4sIP ad_card 10 7 none]
+G c Z s s [P8sIP ad_card 11 7 none]
+G c Z s s [P12sIP ad_card 12 7 none]
+G r c none [initialize_ad_card ad_card 6 14 none] [inicializar_archivos guardar 5 14 none]
+G r c none [request_read ad_card__ad_card_server 10 13 none] [leer_datos leer 5 14 none]
+G r c none [request_write_sc1 ad_card__ad_card_server 11 13 none] [guardar_datos guardar 8 14 none]
+G r c none [request_write_sc2 ad_card__ad_card_server 12 13 none] [guardar_datos guardar 8 14 none]
 X 1 ad_card.ads
-4K9*AD_Card 19l5 19e12 2|7b14 64l5 64t12
-6E9*Operation_Type 6e55 10r12 2|19r12
-6n28*READ{6E9} 2|41r15
-6n34*WRITE_SC1{6E9} 2|45r15
-6n45*WRITE_SC2{6E9} 2|52r15
-9U14*Access_AD_Card 10>7 11>7 12=7 13<7 14<7 2|18b14 63l8 63t22
-10e7 Op{6E9} 2|19b7 40r12
-11i7 k{integer} 2|20b7 42r24 43r79 46r27 53r27
-12r7 Sensors{17|27R9} 2|21b7 42m34 46r30 48r17 53r30 55r17
-13r7 Input{17|34R9} 2|22b7 42m27
-14b7 Success{boolean} 2|23b7 26m7 61m7
-18U14*Initialize_AD_Card 2|11b14 16l8 16t26
+3K9*AD_Card 16l5 16e12 2|6b14 47l5 47t12
+4E9*Operation_Type 4e55
+4n28*READ{4E9}
+4n34*WRITE_SC1{4E9}
+4n45*WRITE_SC2{4E9}
+6U14*Initialize_AD_Card 2|7b14 11l8 11t26
+9w14*AD_Card_Server 2|13b19 46l8 46t22
+10Y13 Request_Read 10>26 10=42 10<72 2|16b13 23l11 23t23
+10i26 k{integer} 2|20r21 21r76
+10r42 Sensors{16|27R9} 2|20m31
+10r72 Input{16|34R9} 2|20m24
+11Y13 Request_Write_SC1 11>31 11>47 2|25b13 34l11 34t28
+11i31 k{integer} 2|29r24
+11r47 Sensors{16|27R9} 2|29r27 31r14
+12Y13 Request_Write_SC2 12>31 12>47 2|36b13 45l11 45t28
+12i31 k{integer} 2|40r24
+12r47 Sensors{16|27R9} 2|40r27 42r14
+14b7 Busy{boolean} 2|17r19 19r10 22r10 26r19 28r10 33r10 37r19 39r10 44r10
 X 2 ad_card.adb
-9b4 Is_Busy{boolean} 13m7 29r10 32r13 38m7 62m7
+16i26 k{integer}
+16r42 Sensors{16|27R9}
+16r72 Input{16|34R9}
+25i31 k{integer}
+25r47 Sensors{16|27R9}
+36i31 k{integer}
+36r47 Sensors{16|27R9}
 X 3 ada.ads
-16K9*Ada 2|2r6 2r23 5r6 5r29 3|20e8
-X 7 a-flteio.ads
-20K13*Float_Text_IO[15|46] 2|5w10 5r33
-X 14 a-textio.ads
-58K13*Text_IO 2|2w10 2r27 14|725e16
+16K9*Ada 2|1r6 1r23 2r6 2r29 3|20e8
+X 6 a-flteio.ads
+20K13*Float_Text_IO[14|46] 2|2w10 2r33
+X 13 a-textio.ads
+58K13*Text_IO 2|1w10 1r27 13|725e16
 87I12*Field{integer}
-506U14*Put_Line 2|14s7 30s10 33s13 43s13 47s13 49s13 50s13 54s13 56s13 57s13
-X 15 a-tiflio.ads
-82U14*Put 2|48s13[7|20] 55s13[7|20]
-84i7 Fore{14|87I12} 2|48r30[7|20] 55r30[7|20]
-85i7 Aft{14|87I12} 2|48r41[7|20] 55r41[7|20]
-86i7 Exp{14|87I12} 2|48r51[7|20] 55r51[7|20]
-X 17 data_type.ads
-1K9*Data_Type 1|2w6 2r21 17|41e14
-27R9*Sensor_Data 1|12r24 2|21r24 17|32e14
-29f7*SC1{float} 2|48r25
-29f12*SC2{float} 2|55r25
-34R9*Input_Data 1|13r19 2|22r19 17|37e14
-X 18 guardar.ads
-3K9*guardar 2|4w6 4r19 18|12e12
-5U14*Inicializar_Archivos 2|15s7
-8U14*Guardar_Datos 2|46s13 53s13
-X 21 leer.ads
-3K9*leer 2|3w6 3r16 21|7e9
-5U14*Leer_Datos 2|42s13
+506U14*Put_Line 2|9s7 21s10 30s10 32s10 41s10 43s10
+X 14 a-tiflio.ads
+82U14*Put 2|31s10[6|20] 42s10[6|20]
+84i7 Fore{13|87I12} 2|31r27[6|20] 42r27[6|20]
+85i7 Aft{13|87I12} 2|31r38[6|20] 42r38[6|20]
+86i7 Exp{13|87I12} 2|31r48[6|20] 42r48[6|20]
+X 16 data_type.ads
+1K9*Data_Type 1|1w6 1r21 16|41e14
+27R9*Sensor_Data 1|10r59 11r60 12r60 2|16r59 25r60 36r60 16|32e14
+29f7*SC1{float} 2|31r22
+29f12*SC2{float} 2|42r22
+34R9*Input_Data 1|10r84 2|16r84 16|37e14
+X 17 guardar.ads
+3K9*guardar 2|4w6 4r19 17|12e12
+5U14*Inicializar_Archivos 2|10s7
+8U14*Guardar_Datos 2|29s10 40s10
+X 22 leer.ads
+3K9*leer 2|3w6 3r16 22|7e9
+5U14*Leer_Datos 2|20s10
+X 39 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
 

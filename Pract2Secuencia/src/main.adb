@@ -113,7 +113,7 @@ begin
       Mostrar_Datos(Contador_Ciclos, Sensors);
       Contador_Ciclos := Contador_Ciclos + 1;
 
-      -- Salir después de 20 ciclos completos (2000ms) para el ejemplo
+      -- Salir después de 4 ciclos completos (2000ms) para el ejemplo
       exit when Contador_Ciclos >= 4;
    end loop;
 

@@ -11,7 +11,7 @@ RV NO_FLOATING_POINT
 RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		b97b8c07 NE OO SU
+U main%b		main.adb		7253036a NE OO SU
 W ad_card%s		ad_card.adb		ad_card.ali
 W ada%s			ada.ads			ada.ali
 W ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -45,7 +45,7 @@ D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20250509173534 64a68e9a main%b
+D main.adb		20250514160812 af8e01f7 main%b
 D mostrar.ads		20250423141644 62d25a4a mostrar%s
 D seguridad.ads		20250423141644 07e078c4 seguridad%s
 D simulacion.ads	20250423141644 1d5def7f simulacion%s
