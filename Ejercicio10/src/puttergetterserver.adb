@@ -1,5 +1,5 @@
-with Ada.Text_IO;         use Ada.Text_IO;
-with Putter;              use Putter;
+with Ada.Text_IO; use Ada.Text_IO;
+with Putter; use Putter;
 
 package body PutterGetterServer is
    --  Servidor protegido (candado)

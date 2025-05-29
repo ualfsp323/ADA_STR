@@ -320,10 +320,10 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\putter.o
-   --   C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\main_no_mutex.o
-   --   -LC:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\
-   --   -LC:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\
+   --   C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\putter.o
+   --   C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\main_no_mutex.o
+   --   -LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\
+   --   -LC:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnarl

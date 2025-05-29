@@ -45,7 +45,7 @@ Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-D ad_card.ads		20250514152838 4296ecf6 ad_card%s
+D ad_card.ads		20250515085256 4296ecf6 ad_card%s
 D ada.ads		20210520051132 76789da1 ada%s
 D a-calend.ads		20210520051128 474d9720 ada.calendar%s
 D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
@@ -61,17 +61,17 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D controlador.ads	20250423141644 04e478e6 controlador%s
-D data_type.ads		20250423141644 6c56296f data_type%s
-D guardar.ads		20250423141644 076f32ec guardar%s
+D controlador.ads	20250513153522 04e478e6 controlador%s
+D data_type.ads		20250513153522 6c56296f data_type%s
+D guardar.ads		20250513153522 076f32ec guardar%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20250514162124 8b94fb2c main%b
-D mostrar.ads		20250423141644 62d25a4a mostrar%s
-D seguridad.ads		20250423141644 07e078c4 seguridad%s
-D simulacion.ads	20250423141644 1d5def7f simulacion%s
+D main.adb		20250515085256 8b94fb2c main%b
+D mostrar.ads		20250513153522 62d25a4a mostrar%s
+D seguridad.ads		20250513153522 07e078c4 seguridad%s
+D simulacion.ads	20250513153522 1d5def7f simulacion%s
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
