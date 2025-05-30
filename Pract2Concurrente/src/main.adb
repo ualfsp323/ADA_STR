@@ -50,7 +50,7 @@ procedure Main is
          AD_Card_Server.Request_Read(Ciclo, Sensors, Input);
          Calcular_Caudales_Optimos(Ciclo, Input, Sensors, Usar);
          Simular_Campo_Solar(Ciclo, Input, Sensors);
-         Put_Line("  SC1 --> enviando datos (m\u00e1x 15 ms)...");
+         Put_Line("  SC1 --> enviando datos (max 15 ms)...");
          AD_Card_Server.Request_Write_SC1(Ciclo, Sensors);
          Put_Line("");
          delay 0.15;  -- Timeout de almacenamiento
@@ -70,7 +70,7 @@ procedure Main is
 
          AD_Card_Server.Request_Read(Ciclo, Sensors, Input);
          Simular_Modulo_MD(Ciclo, Input, Sensors);
-         Put_Line(" SC2 --> enviando datos (m\u00e1x 15 ms)...");
+         Put_Line(" SC2 --> enviando datos (max 15 ms)...");
          AD_Card_Server.Request_Write_SC2(Ciclo, Sensors);
          Put_Line("");
            Put_Line("Datos finales: ");
