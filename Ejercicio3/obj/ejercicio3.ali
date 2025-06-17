@@ -1,0 +1,86 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U ejercicio3%b		ejercicio3.adb		1a6a0b8d NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D ejercicio3.adb	20250322122748 42d55744 ejercicio3%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [ejercicio3 standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 13|1r6 1r23 2r6 2r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 13|2w10 2r35
+X 10 a-textio.ads
+58K13*Text_IO 725e16 13|1w10 1r27
+65P9*File_Type 13|17r22 18r21
+67n23*In_File{67E9} 13|22r26
+67n32*Out_File{67E9} 13|42r27
+87I12*Field{integer}
+97U14*Create 13|42s4
+112U14*Open 13|22s4
+127U14*Close 13|32s4 53s4
+256U14*New_Line 13|49s7
+506U14*Put_Line 13|55s4
+X 11 a-tiinio.ads
+51U14*Get 13|27s10[3|18]
+68U14*Put 13|47s10[3|18]
+71i7 Width{10|87I12} 13|47r56[3|18]
+X 13 ejercicio3.adb
+4U11*Ejercicio3 4b11 56l5 56t15
+6i4 Filas{natural} 10r31 14r52 25r18 35r18 46r21
+7i4 Columnas{natural} 10r43 14r37 26r21 36r21 45r18
+10A9 Matriz(integer)<integer><integer> 13r22
+13a4 Matriz_Original{10A9} 27m31 27r31 37r38
+14a4 Matriz_Transpuesta(integer) 37m10 47r30
+17p4 Fichero_Entrada{10|65P9} 22m9 22r9 27r14 32m10 32r10
+18p4 Fichero_Salida{10|65P9} 42m11 42r11 47r14 49r16 53m10 53r10
+25i8 I{integer} 27r47
+26i11 J{integer} 27r50
+35i8 I{integer} 37r32 37r54
+36i11 J{integer} 37r29 37r57
+45i8 I{integer} 47r49
+46i11 J{integer} 47r52
+

@@ -1,0 +1,28 @@
+𝛽=  0.13;
+𝐿𝑒𝑞= 16;
+𝐻= 4;
+𝑐 = 1080000;
+𝐶𝑝 = 4190;
+𝜌 = 976 ;
+SC1  = 16;
+SC2 = 425;
+ST2(0) = 58 ;
+ST1(0) = 48;
+
+- Leer
+- Controlar
+- Simular
+- Seguridad
+- Visualización
+- Guardar
+
+ST2 optimo 80ºC
+SD1 Nivel deseado 32.0
+
+En concreto, la temperatura a la salida del campo solar no debe ser mayor de 95 oC. Por consiguiente,
+si se detecta que la temperatura es mayor de 95 oC, se debe enviar un mensaje de alarma por pantalla. 
+Además, mediante un procedimiento los mensajes de error se almacenaran en un archivo llamado
+“alarm_log.txt” que incluya el mensaje y el número de iteración (k) en la que sucede
+
+La información de todos los sensores se guardará haciendo uso de un
+procedimiento en un archivo de texto llamado “data_log.txt” con el siguiente formato.

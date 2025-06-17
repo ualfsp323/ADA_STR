@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ejercicio 1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 30" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ejercicio 1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ejercicio 1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 20" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\src\ejercicio1.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 11" line=" 4" >
+      <vfs_project />
+      <vfs_file>C:\Users\fsp28\Documents\ADA\src\ejercicio1.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

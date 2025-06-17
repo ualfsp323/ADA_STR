@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_file>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 16" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 5" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 24">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\puttergetterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\putterserver.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 68">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 40">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\puttergetterserver.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 102" line=" 68">
+      <vfs_project >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\ejercicio10.gpr</vfs_project>
+      <vfs_file >C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio10\src\puttergetterserver.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

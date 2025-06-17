@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr</vfs_file>
+    <file_marker column=" 19" line=" 37" >
+      <vfs_project>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr</vfs_project>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 15" >
+      <vfs_project>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr</vfs_project>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\src\main_with_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 13" >
+      <vfs_project>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr</vfs_project>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr</vfs_project>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr</vfs_project>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 16" line=" 13" >
+      <vfs_project>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr</vfs_project>
+      <vfs_file>C:\Users\fsp28\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

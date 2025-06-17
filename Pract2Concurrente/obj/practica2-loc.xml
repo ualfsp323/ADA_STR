@@ -1,0 +1,593 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_with_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_with_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_with_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 5" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\guardar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\guardar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 178" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 14" line=" 11" >
+      <vfs_project />
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\guardar.ads</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 25" line=" 67">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 202">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_with_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_with_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_with_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_ordered.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\semaphores.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\main_no_mutex.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project  />
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\src\putter.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 150">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 49">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 57">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 5">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\guardar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 7">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\guardar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 27" line=" 32">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\practica2.gpr</vfs_project>
+      <vfs_file >C:\Users\Franco\Documents\ADA\ADA_STR\Pract2\src\simulacion.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

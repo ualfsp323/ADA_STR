@@ -1,0 +1,106 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U numeros_complejos%b	numeros_complejos.adb	cc860d43 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U numeros_complejos%s	numeros_complejos.ads	799cfc0c EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D numeros_complejos.ads	20250322160604 799cfc0c numeros_complejos%s
+D numeros_complejos.adb	20250322160916 fa646382 numeros_complejos%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [Oadd numeros_complejos 9 13 none]
+G c Z s b [Osubtract numeros_complejos 10 13 none]
+G c Z s b [Omultiply numeros_complejos 11 13 none]
+G c Z s b [Odivide numeros_complejos 12 13 none]
+G c Z s b [conj numeros_complejos 15 13 none]
+G c Z s b [mostrar numeros_complejos 18 14 none]
+G c Z s s [complejoIP numeros_complejos 3 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r23 2r6 2r29
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 16|2w10 2r33
+X 10 a-textio.ads
+58K13*Text_IO 725e16 16|1w10 1r27
+87I12*Field{integer}
+463U14*Put 16|56s7 58s7 60s7
+X 11 a-tiflio.ads
+82U14*Put 16|57s7[3|20] 59s7[3|20]
+84i7 Fore{10|87I12} 16|57r19[3|20] 59r25[3|20]
+85i7 Aft{10|87I12} 16|57r30[3|20] 59r36[3|20]
+86i7 Exp{10|87I12} 16|57r40[3|20] 59r46[3|20]
+X 15 numeros_complejos.ads
+1K9*Numeros_Complejos 19l5 19e22 16|4b14 63l5 63t22
+3R9*Complejo 6e14 9r27 9r44 10r27 10r44 11r27 11r44 12r27 12r44 15r23 15r40
+. 18r27 16|7r27 7r44 8r19 16r27 16r44 17r19 25r27 25r44 26r19 34r27 34r44
+. 35r19 45r23 45r40 46r19 54r27
+4f7*Real{float} 16|10m17 10r28 10r38 19m17 19r28 19r38 28m17 28r28 28r38
+. 29r34 29r76 38r25 39m17 39r29 39r39 40r51 40r61 48m17 48r27 57r13
+5f7*Imaginario{float} 16|11m17 11r34 11r50 20m17 20r34 20r50 28r48 28r64
+. 29m17 29r44 29r60 38r38 39r49 39r65 40m17 40r35 40r71 49m17 49r34 59r13
+9V14*"+"{3R9} 9>18 9>22 16|7b14 13l9 13t11
+9r18 C1{3R9} 16|7b18 10r25 11r31
+9r22 C2{3R9} 16|7b22 10r35 11r47
+10V14*"-"{3R9} 10>18 10>22 16|16b14 22l9 22t11
+10r18 C1{3R9} 16|16b18 19r25 20r31
+10r22 C2{3R9} 16|16b22 19r35 20r47
+11V14*"*"{3R9} 11>18 11>22 16|25b14 31l9 31t11
+11r18 C1{3R9} 16|25b18 28r25 28r45 29r31 29r57
+11r22 C2{3R9} 16|25b22 28r35 28r61 29r41 29r73
+12V14*"/"{3R9} 12>18 12>22 16|34b14 42l9 42t11
+12r18 C1{3R9} 16|34b18 39r26 39r46 40r32 40r58
+12r22 C2{3R9} 16|34b22 38r22 38r35 39r36 39r62 40r48 40r68
+15V13*Conj{3R9} 15>19 16|45b13 51l8 51t12
+15r19 C{3R9} 16|45b19 48r25 49r32
+18U14*Mostrar 18>23 16|54b14 61l8 61t15
+18r23 C{3R9} 16|54b23 57r11 59r11
+X 16 numeros_complejos.adb
+8r7 Resultado{15|3R9} 10m7 11m7 12r14
+17r7 Resultado{15|3R9} 19m7 20m7 21r14
+26r7 Resultado{15|3R9} 28m7 29m7 30r14
+35r7 Resultado{15|3R9} 39m7 40m7 41r14
+36f7 Denominador{float} 38m7 39r79 40r85
+46r7 Resultado{15|3R9} 48m7 49m7 50r14
+

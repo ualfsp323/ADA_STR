@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__operaciones_con_tipos.o
+[PROJECT FILES]
+C:\Users\fsp28\Documents\ADA\ejercicios1.gpr
+20250305172322 b6246c9394b4d63ea68718c3212dfb8c
+[BOUND OBJECT FILES]
+C:\Users\fsp28\Documents\ADA\obj\operaciones_con_tipos.o
+[GENERATED SOURCE FILES]
+b__operaciones_con_tipos.ads
+b__operaciones_con_tipos.adb
+b__operaciones_con_tipos.ali
+[RESULTING OPTIONS]
+-LC:\Users\fsp28\Documents\ADA\obj\
+-LC:\Users\fsp28\Documents\ADA\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

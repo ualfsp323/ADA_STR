@@ -1,0 +1,8 @@
+project Ejercicio9 is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("main_ordered.adb", "main_with_mutex.adb", "main_no_mutex.adb");
+
+end Ejercicio9;
+

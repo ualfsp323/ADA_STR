@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__main_with_mutex.o
+[PROJECT FILES]
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\ejercicio9.gpr
+20250423141644 68e94de4bbd67938b31555b09162fe79
+[BOUND OBJECT FILES]
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\putter.o
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\semaphores.o
+C:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\main_with_mutex.o
+[GENERATED SOURCE FILES]
+b__main_with_mutex.ads
+b__main_with_mutex.adb
+b__main_with_mutex.ali
+[RESULTING OPTIONS]
+-LC:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\
+-LC:\Users\Franco\Documents\ADA\ADA_STR\Ejercicio9\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

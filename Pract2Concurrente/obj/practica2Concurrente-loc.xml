@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_file>
+    <file_marker column=" 40" line=" 76" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\simulacion.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 25" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\ad_card.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 11" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\ad_card.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 5" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\leer.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 4" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\seguridad.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 69" line=" 11" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\seguridad.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\ad_card.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\practica2Concurrente.gpr</vfs_project>
+      <vfs_file>C:\Users\Franco\Documents\ADA\ADA_STR\Pract2Concurrente\src\ad_card.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
